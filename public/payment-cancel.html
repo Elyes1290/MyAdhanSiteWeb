@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paiement annulé - MyAdhan</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        background: linear-gradient(
+          135deg,
+          #0f172a 0%,
+          #1e293b 50%,
+          #0f172a 100%
+        );
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 24px;
+      }
+
+      .container {
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 24px;
+        padding: 48px;
+        text-align: center;
+        backdrop-filter: blur(20px);
+      }
+
+      .icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #ef4444, #f97316);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 32px;
+        animation: scaleIn 0.5s ease-out;
+      }
+
+      .icon svg {
+        width: 40px;
+        height: 40px;
+        color: white;
+      }
+
+      h1 {
+        font-size: 32px;
+        font-weight: 900;
+        margin-bottom: 16px;
+        color: white;
+      }
+
+      p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.6;
+        margin-bottom: 32px;
+      }
+
+      .btn-group {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 16px 32px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        color: white;
+        box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 48px rgba(16, 185, 129, 0.4);
+      }
+
+      .btn-secondary {
+        background: transparent;
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .btn-secondary:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+        transform: translateY(-2px);
+      }
+
+      .info-box {
+        margin-top: 32px;
+        padding: 24px;
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        border-radius: 12px;
+        text-align: left;
+      }
+
+      .info-box h3 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #3b82f6;
+      }
+
+      .info-box p {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.8;
+        margin-bottom: 0;
+      }
+
+      @keyframes scaleIn {
+        from {
+          transform: scale(0);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 32px 24px;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .btn-group {
+          flex-direction: column;
+        }
+
+        .btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+
+      <h1>Paiement annulé</h1>
+
+      <p>
+        Votre paiement a été annulé. Aucun montant n'a été débité de votre
+        compte. Vous pouvez réessayer quand vous le souhaitez.
+      </p>
+
+      <div class="btn-group">
+        <a href="/#premium" class="btn btn-primary">Réessayer</a>
+        <a href="/" class="btn btn-secondary">Retour à l'accueil</a>
+      </div>
+
+      <div class="info-box">
+        <h3>💡 Besoin d'aide ?</h3>
+        <p>
+          Si vous rencontrez des difficultés ou avez des questions, n'hésitez
+          pas à nous contacter à
+          <strong>myadhanapp@gmail.com</strong>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

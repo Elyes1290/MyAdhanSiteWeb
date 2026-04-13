@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyAdhan - Marketing Kit</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: #fff;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 24px;
+        padding: 60px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 30px;
+        border-radius: 24px;
+        box-shadow: 0 10px 40px rgba(16, 185, 129, 0.3);
+      }
+
+      h1 {
+        font-size: 48px;
+        font-weight: 900;
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+      }
+
+      .tagline {
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 40px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 60px;
+      }
+
+      .qr-section {
+        background: white;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      }
+
+      .qr-code {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 20px;
+        background: white;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .qr-code img {
+        width: 280px;
+        height: 280px;
+      }
+
+      .qr-title {
+        color: #0f172a;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      .qr-url {
+        color: #10b981;
+        font-size: 18px;
+        font-weight: 600;
+        word-break: break-all;
+      }
+
+      .stats-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .stat-card {
+        background: rgba(16, 185, 129, 0.1);
+        border: 2px solid rgba(16, 185, 129, 0.3);
+        border-radius: 16px;
+        padding: 24px;
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 48px;
+        font-weight: 900;
+        color: #10b981;
+        margin-bottom: 10px;
+      }
+
+      .stat-label {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .features {
+        margin-bottom: 60px;
+      }
+
+      .features h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+
+      .feature-card {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 24px;
+        text-align: center;
+      }
+
+      .feature-icon {
+        font-size: 40px;
+        margin-bottom: 16px;
+      }
+
+      .feature-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .feature-desc {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .cta-section {
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        border-radius: 20px;
+        padding: 50px;
+        text-align: center;
+      }
+
+      .cta-title {
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 20px;
+      }
+
+      .cta-text {
+        font-size: 20px;
+        margin-bottom: 30px;
+        opacity: 0.95;
+      }
+
+      .store-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .store-btn {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        color: white;
+        padding: 16px 32px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+      }
+
+      .store-btn:hover {
+        background: white;
+        color: #10b981;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 40px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .footer-text {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+      }
+
+      @media print {
+        body {
+          background: white;
+        }
+        .container {
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 30px 20px;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+
+        .tagline {
+          font-size: 18px;
+        }
+
+        .logo {
+          width: 80px;
+          height: 80px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+
+        .qr-code {
+          width: 200px;
+          height: 200px;
+        }
+
+        .qr-code img {
+          width: 180px;
+          height: 180px;
+        }
+
+        .qr-title {
+          font-size: 20px;
+        }
+
+        .qr-url {
+          font-size: 16px;
+        }
+
+        .stats-section {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+        }
+
+        .stat-number {
+          font-size: 36px;
+        }
+
+        .stat-label {
+          font-size: 14px;
+        }
+
+        .features h2 {
+          font-size: 26px;
+        }
+
+        .features-grid {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+
+        .feature-card {
+          padding: 20px;
+        }
+
+        .feature-icon {
+          font-size: 32px;
+        }
+
+        .feature-title {
+          font-size: 16px;
+        }
+
+        .feature-desc {
+          font-size: 13px;
+        }
+
+        .cta-section {
+          padding: 35px 25px;
+        }
+
+        .cta-title {
+          font-size: 28px;
+        }
+
+        .cta-text {
+          font-size: 18px;
+        }
+
+        .store-links {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .store-btn {
+          width: 100%;
+          justify-content: center;
+          font-size: 16px;
+          padding: 14px 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <img src="/images/icon.png" alt="MyAdhan Logo" class="logo" />
+        <h1>MyAdhan</h1>
+        <p class="tagline">Votre Compagnon de Prière Intelligent</p>
+      </div>
+
+      <!-- Grid: QR Code + Stats -->
+      <div class="grid">
+        <!-- QR Code Section -->
+        <div class="qr-section">
+          <a
+            href="https://myadhanapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="qr-code"
+            style="cursor: pointer; text-decoration: none"
+          >
+            <img
+              src="https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=https://myadhanapp.com"
+              alt="QR Code"
+              style="transition: transform 0.3s ease"
+              onmouseover="this.style.transform = 'scale(1.05)'"
+              onmouseout="this.style.transform = 'scale(1)'"
+            />
+          </a>
+          <div class="qr-title">Scannez ou cliquez pour découvrir</div>
+          <div class="qr-url">myadhanapp.com</div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+          <div class="stat-card">
+            <div class="stat-number">13</div>
+            <div class="stat-label">Langues Disponibles</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Prières Quotidiennes</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Gratuit</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Disponible</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features -->
+      <div class="features">
+        <h2>✨ Fonctionnalités Principales</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🕌</div>
+            <div class="feature-title">Horaires Précis</div>
+            <div class="feature-desc">Calculs basés sur votre localisation</div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔔</div>
+            <div class="feature-title">Notifications Adhan</div>
+            <div class="feature-desc">Personnalisables pour chaque prière</div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📖</div>
+            <div class="feature-title">Coran Complet</div>
+            <div class="feature-desc">Avec audio et traductions</div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🧭</div>
+            <div class="feature-title">Boussole Qibla</div>
+            <div class="feature-desc">Direction précise partout</div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📚</div>
+            <div class="feature-title">Hadiths</div>
+            <div class="feature-desc">Collections authentiques</div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📴</div>
+            <div class="feature-title">Mode Hors Ligne</div>
+            <div class="feature-desc">Fonctionne sans internet</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="cta-section">
+        <div class="cta-title">📱 Téléchargez Maintenant</div>
+        <div class="cta-text">Disponible gratuitement sur iOS et Android</div>
+        <div class="store-links">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.drogbinho.prayertimesapp2"
+            class="store-btn"
+          >
+            📱 Google Play
+          </a>
+          <a
+            href="https://apps.apple.com/ch/app/myadhan-muslim-prayer-app/id6756371160"
+            class="store-btn"
+          >
+            App Store
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p class="footer-text">
+          MyAdhan - Votre compagnon spirituel au quotidien
+        </p>
+        <p class="footer-text">
+          🌐 www.myadhanapp.com | 📧 myadhanapp@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Pour l'impression
+      document.addEventListener("keydown", function (e) {
+        if (e.ctrlKey && e.key === "p") {
+          window.print();
+        }
+      });
+    </script>
+  </body>
+</html>

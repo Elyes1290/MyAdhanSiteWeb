@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://myadhanapp.com/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Alternate languages -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://myadhanapp.com/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://myadhanapp.com/" />
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://myadhanapp.com/public/privacy-policy.html</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://myadhanapp.com/public/terms-of-service.html</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://myadhanapp.com/public/data-deletion.html</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "premium": "Premium",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "✨ Now Available on iOS & Android",
+    "title": "Your Intelligent",
+    "titleHighlight": "Prayer Companion",
+    "subtitle": "Never miss a prayer with accurate prayer times, beautiful Adhan notifications, Quran, Hadith, Qibla direction and much more. Available in 13 languages.",
+    "downloadBtn": "Download Now",
+    "learnMoreBtn": "Learn More",
+    "stats": {
+      "users": "Active Users",
+      "languages": "Languages",
+      "rating": "Rating",
+      "downloads": "Downloads",
+      "prayers": "5 Prayers",
+      "free": "100% Free"
+    }
+  },
+  "features": {
+    "title": "Everything You Need for",
+    "titleHighlight": "Your Spiritual Practice",
+    "subtitle": "A complete application to accompany you in your daily practice of Islam",
+    "feature1": {
+      "title": "Accurate Prayer Times",
+      "description": "Automatic calculations based on your location with multiple calculation methods"
+    },
+    "feature2": {
+      "title": "Qibla Direction",
+      "description": "Integrated compass for accurate Qibla direction anywhere in the world"
+    },
+    "feature3": {
+      "title": "Quran & Hadith",
+      "description": "Complete Quran with recitations, translations and authentic Hadith collections"
+    },
+    "feature4": {
+      "title": "Smart Notifications",
+      "description": "Customizable Adhan for each prayer with Android widget"
+    },
+    "feature5": {
+      "title": "13 Languages",
+      "description": "Full multilingual support for a global experience"
+    },
+    "feature6": {
+      "title": "Offline Mode",
+      "description": "Access your prayer times and saved content without internet"
+    }
+  },
+  "screenshots": {
+    "title": "Discover",
+    "titleHighlight": "MyAdhan in Action",
+    "subtitle": "Explore all app features through these screenshots",
+    "categories": {
+      "core": "Core Features",
+      "islamic": "Islamic Content",
+      "premium": "Premium"
+    },
+    "core": {
+      "homescreen": "Home Screen",
+      "prayerTimes": "Prayer Times",
+      "weeklyCalendar": "Weekly Calendar",
+      "howToPray": "How to Pray",
+      "prayerWidget": "Prayer Times Widget",
+      "qibla": "Qibla Compass",
+      "calendar": "Islamic Calendar",
+      "library": "Library",
+      "more": "More",
+      "darkTheme": "Dark Theme",
+      "dhohrTheme": "Dhohr Theme",
+      "settings": "Settings"
+    },
+    "islamic": {
+      "quran": "Quran",
+      "quranReader": "Quran Reader",
+      "hadith": "Hadiths",
+      "hadithBooks": "Hadith Books",
+      "prophetStories": "Prophet Stories",
+      "dhikr": "Dhikr & Dua'a",
+      "names99": "99 Names of Allah",
+      "tasbih": "Tasbih"
+    },
+    "premium": {
+      "stats": "Prayer Statistics",
+      "qiblaCustom": "Custom Compass",
+      "sobhTheme": "Fajr Theme (Premium)",
+      "maghribTheme": "Maghrib Theme (Premium)",
+      "quranWidget": "Quran Audio Widget",
+      "quranModal": "Quran Reader Settings"
+    }
+  },
+  "premiumFeatures": {
+    "title": "The",
+    "titleHighlight": "Premium Experience",
+    "subtitle": "Unlock exclusive features designed to enrich your daily spiritual practice.",
+    "cta": "View Premium Plans",
+    "ctaNote": "Starting from €1.99/month · Cancel anytime",
+    "features": {
+      "themes": {
+        "title": "Exclusive Themes",
+        "description": "Personalize the app with unique visual themes dedicated to prayer moments: Fajr and Maghrib."
+      },
+      "stats": {
+        "title": "Prayer Statistics",
+        "description": "Track your prayer habits with detailed charts, monthly analytics and your progress over time."
+      },
+      "qibla": {
+        "title": "Premium Qibla Compass",
+        "description": "A fully custom compass interface with high-fidelity accuracy and an elegant design."
+      },
+      "audio": {
+        "title": "HD Recitations",
+        "description": "Access Quran recitations in high-definition audio quality for an unmatched spiritual listening experience."
+      },
+      "widget": {
+        "title": "Quran Reading Widget",
+        "description": "Read and listen to the Quran directly from your home screen with the exclusive Premium widget."
+      }
+    }
+  },
+  "premium": {
+    "title": "Upgrade to",
+    "titleHighlight": "Premium",
+    "subtitle": "Unlock all features and support the development of the application",
+    "popular": "Most Popular",
+    "infoBanner": "To subscribe to Premium, download the MyAdhan app",
+    "save": "Save 17%",
+    "comingSoon": "Coming Soon",
+    "downloadApp": "Download App",
+    "monthly": {
+      "title": "Monthly",
+      "price": "1.99€",
+      "period": "/month",
+      "features": [
+        "HD Recitations",
+        "Prayer Analytics",
+        "Premium Themes",
+        "No Ads",
+        "Priority Support"
+      ]
+    },
+    "yearly": {
+      "title": "Annual",
+      "price": "19.99€",
+      "period": "/year",
+      "features": [
+        "All monthly features",
+        "2 months free",
+        "Monthly statistics",
+        "Exclusive content",
+        "Priority updates"
+      ]
+    },
+    "family": {
+      "title": "Family",
+      "price": "29.99€",
+      "period": "/year",
+      "features": [
+        "All yearly features",
+        "Up to 6 members",
+        "Children profiles",
+        "Family management",
+        "Dedicated support"
+      ]
+    }
+  },
+  "download": {
+    "title": "Available on",
+    "titleHighlight": "iOS and Android",
+    "subtitle": "Download MyAdhan for free on your favorite device and start your spiritual journey today.",
+    "googlePlay": "Download on Google Play",
+    "appStore": "Download on App Store",
+    "stats": {
+      "languages": "Supported Languages",
+      "notifications": "Notifications per Day",
+      "free": "Free",
+      "freeNumber": "Free",
+      "freeVersion": "Basic Version",
+      "available": "24/7",
+      "availability": "Available"
+    }
+  },
+  "footer": {
+    "description": "Your intelligent prayer companion. Accurate times, Adhan, Quran, Qibla and much more. Available in 13 languages.",
+    "download": "Download",
+    "legal": "Legal Information",
+    "support": "Support",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "MyAdhan. All rights reserved.",
+    "madeWith": "Developed with",
+    "forCommunity": "for the Muslim community"
+  }
+}

@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyAdhan - QR Code Poster</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #fff;
+      }
+
+      /* Affiche A4 - Format portrait */
+      .poster {
+        width: 210mm;
+        height: 297mm;
+        margin: 20px auto;
+        padding: 15mm 20mm;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        page-break-after: always;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .logo {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+        border-radius: 14px;
+        box-shadow: 0 8px 30px rgba(16, 185, 129, 0.4);
+        display: block;
+      }
+
+      .title {
+        font-size: 50px;
+        font-weight: 900;
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 12px;
+        letter-spacing: -2px;
+        line-height: 1;
+      }
+
+      .tagline {
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 25px;
+        font-weight: 300;
+        line-height: 1.2;
+      }
+
+      .qr-container {
+        background: white;
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+        margin-bottom: 25px;
+        display: inline-block;
+      }
+
+      .qr-code {
+        width: 300px;
+        height: 300px;
+        display: block;
+      }
+
+      .scan-text {
+        font-size: 34px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 1.1;
+      }
+
+      .url {
+        font-size: 28px;
+        color: #10b981;
+        font-weight: 600;
+        padding: 15px 30px;
+        background: rgba(16, 185, 129, 0.1);
+        border: 3px solid #10b981;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        display: inline-block;
+      }
+
+      .features {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      .feature {
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        line-height: 1.1;
+      }
+
+      .feature-icon {
+        font-size: 24px;
+        margin-right: 6px;
+      }
+
+      .stores {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .store-badge {
+        font-size: 20px;
+        padding: 10px 20px;
+        background: rgba(16, 185, 129, 0.2);
+        border: 2px solid #10b981;
+        color: white;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+
+      /* Version minimaliste (QR seul) */
+      .poster-minimal {
+        background: white;
+        justify-content: space-evenly;
+        padding: 20mm 20mm;
+      }
+
+      .poster-minimal .logo {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+      }
+
+      .poster-minimal .qr-container {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 25px;
+      }
+
+      .poster-minimal .qr-code {
+        width: 380px;
+        height: 380px;
+        border: 5px solid #10b981;
+        border-radius: 20px;
+      }
+
+      .poster-minimal .title {
+        color: #0f172a;
+        -webkit-text-fill-color: #0f172a;
+        background: none;
+        font-size: 56px;
+        margin-bottom: 12px;
+      }
+
+      .poster-minimal .tagline {
+        color: #64748b;
+        margin-bottom: 30px;
+        font-size: 24px;
+      }
+
+      .poster-minimal .scan-text {
+        color: #0f172a;
+        font-size: 38px;
+        margin-bottom: 20px;
+      }
+
+      .poster-minimal .url {
+        color: #10b981;
+        background: rgba(16, 185, 129, 0.1);
+        font-size: 32px;
+        margin-bottom: 25px;
+      }
+
+      .download-section {
+        text-align: center;
+        padding: 40px;
+        background: #f8f9fa;
+        border-radius: 20px;
+        margin: 20px;
+      }
+
+      .download-section h2 {
+        color: #0f172a;
+        margin-bottom: 20px;
+      }
+
+      .download-btn {
+        display: inline-block;
+        padding: 15px 40px;
+        margin: 10px;
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        color: white;
+        text-decoration: none;
+        border-radius: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        transition: transform 0.3s ease;
+      }
+
+      .download-btn:hover {
+        transform: translateY(-2px);
+      }
+
+      @media print {
+        .download-section {
+          display: none !important;
+          position: absolute !important;
+          height: 0 !important;
+          overflow: hidden !important;
+          page-break-before: avoid !important;
+          page-break-after: avoid !important;
+        }
+
+        body {
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        .poster:first-of-type {
+          page-break-before: avoid !important;
+        }
+      }
+
+      @media screen {
+        body {
+          background: #f0f0f0;
+          padding: 20px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .poster {
+          width: 100%;
+          height: auto;
+          min-height: auto;
+          padding: 30px 20px;
+          margin: 10px 0;
+        }
+
+        .logo {
+          width: 50px;
+          height: 50px;
+          margin-bottom: 15px;
+        }
+
+        .title {
+          font-size: 32px !important;
+        }
+
+        .tagline {
+          font-size: 18px !important;
+          margin-bottom: 20px !important;
+        }
+
+        .qr-container {
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+
+        .qr-code {
+          width: 200px !important;
+          height: 200px !important;
+        }
+
+        .scan-text {
+          font-size: 24px !important;
+          margin-bottom: 12px !important;
+        }
+
+        .url {
+          font-size: 20px !important;
+          padding: 12px 20px !important;
+          margin-bottom: 20px !important;
+        }
+
+        .features {
+          gap: 15px;
+          margin-bottom: 20px;
+        }
+
+        .feature {
+          font-size: 16px !important;
+        }
+
+        .feature-icon {
+          font-size: 20px !important;
+        }
+
+        .stores {
+          gap: 15px;
+        }
+
+        .store-badge {
+          font-size: 16px !important;
+          padding: 8px 16px !important;
+        }
+
+        .download-section {
+          padding: 20px;
+        }
+
+        .download-section h2 {
+          font-size: 20px;
+        }
+
+        .download-btn {
+          font-size: 16px;
+          padding: 12px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section de téléchargement (visible à l'écran uniquement) -->
+    <div class="download-section">
+      <h2>📄 Affiches MyAdhan - Prêtes à imprimer</h2>
+      <p style="margin-bottom: 20px; color: #666">
+        Téléchargez le QR code seul ou imprimez les affiches complètes
+      </p>
+      <button onclick="downloadQRCode()" class="download-btn" style="background: linear-gradient(135deg, #10b981, #059669);">
+        ⬇️ Télécharger le QR Code
+      </button>
+      <button onclick="window.print()" class="download-btn">
+        🖨️ Imprimer en PDF
+      </button>
+    </div>
+
+    <script>
+      function downloadQRCode() {
+        // Créer un lien de téléchargement pour le QR code en haute résolution
+        const qrUrl = 'https://api.qrserver.com/v1/create-qr-code/?size=1000x1000&data=https://myadhanapp.com&margin=20&format=png';
+        
+        // Créer un élément <a> temporaire
+        const link = document.createElement('a');
+        link.href = qrUrl;
+        link.download = 'MyAdhan-QR-Code.png';
+        
+        // Déclencher le téléchargement
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+
+    <!-- AFFICHE 1 : Version Complète avec infos -->
+    <div class="poster" style="padding-top: 25mm">
+      <img src="/images/icon.png" alt="MyAdhan Logo" class="logo" />
+
+      <h1 class="title">MyAdhan</h1>
+      <p class="tagline">Votre Compagnon de Prière</p>
+
+      <div class="qr-container">
+        <img
+          class="qr-code"
+          src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://myadhanapp.com&margin=10"
+          alt="QR Code MyAdhan"
+        />
+      </div>
+
+      <p class="scan-text">📱 Scannez pour télécharger</p>
+      <div class="url">www.myadhanapp.com</div>
+
+      <div class="features">
+        <div class="feature">
+          <span class="feature-icon">🕌</span>
+          <span>Horaires précis</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">📖</span>
+          <span>Coran & Hadiths</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🧭</span>
+          <span>Boussole Qibla</span>
+        </div>
+      </div>
+
+      <div class="stores">
+        <div class="store-badge">📱 iOS</div>
+        <div class="store-badge">🤖 Android</div>
+        <div class="store-badge">🆓 Gratuit</div>
+      </div>
+    </div>
+
+    <!-- AFFICHE 2 : Version Minimaliste (QR géant) -->
+    <div class="poster poster-minimal">
+      <div style="margin-bottom: 20px">
+        <img src="/images/icon.png" alt="MyAdhan Logo" class="logo" />
+      </div>
+
+      <h1 class="title">MyAdhan</h1>
+      <p class="tagline" style="color: #64748b; margin-bottom: 30px">
+        Votre Compagnon de Prière
+      </p>
+
+      <div class="qr-container">
+        <img
+          class="qr-code"
+          src="https://api.qrserver.com/v1/create-qr-code/?size=380x380&data=https://myadhanapp.com&margin=8"
+          alt="QR Code MyAdhan"
+        />
+      </div>
+
+      <p class="scan-text">📱 Scannez pour télécharger</p>
+      <div class="url">www.myadhanapp.com</div>
+
+      <div style="margin-top: 25px; font-size: 22px; color: #64748b">
+        <strong>Gratuit sur iOS et Android</strong>
+      </div>
+    </div>
+
+    <!-- AFFICHE 3 : QR Code XXL (pour grande affiche) -->
+    <div class="poster poster-minimal">
+      <div style="margin-bottom: 25px">
+        <h1 class="title" style="font-size: 64px; margin-bottom: 12px">
+          MyAdhan
+        </h1>
+        <p class="tagline" style="color: #64748b; font-size: 24px">
+          Application de Prière Musulmane
+        </p>
+      </div>
+
+      <div class="qr-container">
+        <img
+          class="qr-code"
+          src="https://api.qrserver.com/v1/create-qr-code/?size=420x420&data=https://myadhanapp.com&margin=8"
+          alt="QR Code MyAdhan"
+          style="
+            width: 420px;
+            height: 420px;
+            border: 5px solid #10b981;
+            border-radius: 20px;
+          "
+        />
+      </div>
+
+      <div style="margin-top: 30px">
+        <p class="scan-text" style="font-size: 42px; margin-bottom: 18px">
+          📱 SCANNEZ POUR TÉLÉCHARGER
+        </p>
+        <div class="url" style="font-size: 36px">myadhanapp.com</div>
+      </div>
+    </div>
+  </body>
+</html>
