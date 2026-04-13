@@ -1,225 +1,231 @@
 {
-  "nav": {
-    "home": "Ana Sayfa",
-    "features": "Özellikler",
-    "screenshots": "Ekran Görüntüleri",
-    "premium": "Premium",
-    "download": "İndir"
-  },
-  "hero": {
-    "badge": "✨ iOS ve Android'de Mevcut",
-    "title": "Akıllı Namaz",
-    "titleHighlight": "Arkadaşınız",
-    "subtitle": "Kesin namaz vakitleri, güzel ezan bildirimleri, Kuran, Hadis, Kıble yönü ve daha fazlasıyla hiçbir namazı kaçırmayın. 13 dilde mevcuttur.",
-    "downloadBtn": "Şimdi İndir",
-    "learnMoreBtn": "Daha Fazla Bilgi",
-    "stats": {
-      "users": "Aktif Kullanıcı",
-      "languages": "Dil",
-      "rating": "Puan",
-      "downloads": "İndirme",
-      "prayers": "5 Namaz",
-      "free": "100% Ücretsiz"
-    }
-  },
-  "features": {
-    "title": "İhtiyacınız Olan Her Şey",
-    "titleHighlight": "Ruhani Pratiğiniz İçin",
-    "subtitle": "Günlük İslam pratiğinizde size eşlik edecek eksiksiz bir uygulama",
-    "feature1": {
-      "title": "Kesin Namaz Vakitleri",
-      "description": "Konumunuza göre birden fazla hesaplama yöntemiyle otomatik hesaplamalar"
-    },
-    "feature2": {
-      "title": "Kıble Yönü",
-      "description": "Dünyanın her yerinde kesin Kıble yönü için entegre pusula"
-    },
-    "feature3": {
-      "title": "Kuran ve Hadis",
-      "description": "Tilâvet, çeviriler ve otantik Hadis koleksiyonlarıyla eksiksiz Kuran"
-    },
-    "feature4": {
-      "title": "Akıllı Bildirimler",
-      "description": "Android widget ile her namaz için özelleştirilebilir ezan"
-    },
-    "feature5": {
-      "title": "13 Dil",
-      "description": "Küresel bir deneyim için tam çok dilli destek"
-    },
-    "feature6": {
-      "title": "Çevrimdışı Mod",
-      "description": "İnternetsiz namaz vakitlerinize ve kayıtlı içeriğe erişim"
-    }
-  },
-  "screenshots": {
-    "title": "Keşfedin",
-    "titleHighlight": "MyAdhan Aksiyonda",
-    "subtitle": "Bu ekran görüntüleri aracılığıyla uygulamanın tüm özelliklerini keşfedin",
-    "categories": {
-      "core": "Temel özellikler",
-      "islamic": "İslami içerik",
-      "premium": "Premium"
-    },
-    "core": {
-      "homescreen": "Ana ekran",
-      "prayerTimes": "Namaz vakitleri",
-      "weeklyCalendar": "Haftalık takvim",
-      "howToPray": "Nasıl namaz kılınır",
-      "prayerWidget": "Namaz Vakitleri Widget'ı",
-      "qibla": "Kıble pusulası",
-      "calendar": "İslami takvim",
-      "library": "Kütüphane",
-      "more": "Daha Fazla",
-      "darkTheme": "Karanlık Tema",
-      "dhohrTheme": "Öğle Teması",
-      "settings": "Ayarlar"
-    },
-    "islamic": {
-      "quran": "Kuran",
-      "quranReader": "Kuran okuyucu",
-      "hadith": "Hadisler",
-      "hadithBooks": "Hadis kitapları",
-      "prophetStories": "Peygamber Hikayeleri",
-      "dhikr": "Zikir ve Dua",
-      "names99": "Allah'ın 99 İsmi",
-      "tasbih": "Tesbih"
-    },
-    "premiumFeatures": {
-    "title": "Premium",
-    "titleHighlight": "Deneyimi",
-    "subtitle": "Günlük manevi pratiğinizi zenginleştirmek için tasarlanmış özel özelliklerin kilidini açın.",
-    "cta": "Premium planları görüntüle",
-    "ctaNote": "Aylık 1,99€'dan başlayan fiyatlarla · İstediğiniz zaman iptal edin",
-    "features": {
-      "themes": {
-        "title": "Özel Temalar",
-        "description": "Namaz anlarına adanmış benzersiz görsel temalarla uygulamayı kişiselleştirin: Sabah ve Akşam."
-      },
-      "stats": {
-        "title": "Namaz İstatistikleri",
-        "description": "Detaylı grafikler ve aylık analizlerle namaz alışkanlıklarınızı takip edin."
-      },
-      "qibla": {
-        "title": "Premium Kıble Pusulası",
-        "description": "Yüksek hassasiyetli ve şık tasarımlı tam özelleştirilebilir bir pusula arayüzü."
-      },
-      "audio": {
-        "title": "HD Tilaveler",
-        "description": "Eşsiz bir manevi dinleme deneyimi için yüksek kaliteli Kuran tilavelerine erişin."
-      },
-      "widget": {
-        "title": "Kuran Okuma Widget'ı",
-        "description": "Özel Premium widget ile Kuranı doğrudan ana ekranınızdan okuyun ve dinleyin."
-      }
-    }
-  },  "premium": {
-      "stats": "Namaz istatistikleri",
-      "qiblaCustom": "Özel pusula",
-      "sobhTheme": "Sabah Teması (Premium)",
-      "maghribTheme": "Akşam Teması (Premium)",
-      "quranWidget": "Kuran Ses Widget'ı",
-      "quranModal": "Kuran Okuyucu Ayarları"
-    }
-  },
-  "premiumFeatures": {
-    "title": "Premium",
-    "titleHighlight": "Deneyimi",
-    "subtitle": "Günlük manevi pratiğinizi zenginleştirmek için tasarlanmış özel özelliklerin kilidini açın.",
-    "cta": "Premium planları görüntüle",
-    "ctaNote": "Aylık 1,99€'dan başlayan fiyatlarla · İstediğiniz zaman iptal edin",
-    "features": {
-      "themes": {
-        "title": "Özel Temalar",
-        "description": "Namaz anlarına adanmış benzersiz görsel temalarla uygulamayı kişiselleştirin: Sabah ve Akşam."
-      },
-      "stats": {
-        "title": "Namaz İstatistikleri",
-        "description": "Detaylı grafikler ve aylık analizlerle namaz alışkanlıklarınızı takip edin."
-      },
-      "qibla": {
-        "title": "Premium Kıble Pusulası",
-        "description": "Yüksek hassasiyetli ve şık tasarımlı tam özelleştirilebilir bir pusula arayüzü."
-      },
-      "audio": {
-        "title": "HD Tilaveler",
-        "description": "Eşsiz bir manevi dinleme deneyimi için yüksek kaliteli Kuran tilavelerine erişin."
-      },
-      "widget": {
-        "title": "Kuran Okuma Widget'ı",
-        "description": "Özel Premium widget ile Kuranı doğrudan ana ekranınızdan okuyun ve dinleyin."
-      }
-    }
-  },  "premium": {
-    "title": "Yükselt",
-    "titleHighlight": "Premium'a",
-    "subtitle": "Tüm özelliklerin kilidini açın ve uygulamanın gelişimini destekleyin",
-    "popular": "En Popüler",
-    "infoBanner": "Premium'a abone olmak için MyAdhan uygulamasını indirin",
-    "save": "%17 Tasarruf",
-    "comingSoon": "Yakında",
-    "downloadApp": "Uygulamayı İndir",
-    "monthly": {
-      "title": "Aylık",
-      "price": "1,99€",
-      "period": "/ay",
-      "features": [
-        "HD Tilavetler",
-        "Namaz Analitikleri",
-        "Premium Temalar",
-        "Reklamsız",
-        "Öncelikli Destek"
-      ]
-    },
-    "yearly": {
-      "title": "Yıllık",
-      "price": "19,99€",
-      "period": "/yıl",
-      "features": [
-        "Tüm aylık özellikler",
-        "2 ay ücretsiz",
-        "Aylık istatistikler",
-        "Özel içerik",
-        "Öncelikli güncellemeler"
-      ]
-    },
-    "family": {
-      "title": "Aile",
-      "price": "29,99€",
-      "period": "/yıl",
-      "features": [
-        "Tüm yıllık özellikler",
-        "6 üyeye kadar",
-        "Çocuk profilleri",
-        "Aile yönetimi",
-        "Özel destek"
-      ]
-    }
-  },
-  "download": {
-    "title": "Mevcut",
-    "titleHighlight": "iOS ve Android",
-    "subtitle": "MyAdhan'ı favori cihazınıza ücretsiz indirin ve ruhani yolculuğunuza bugün başlayın.",
-    "googlePlay": "Google Play'den İndir",
-    "appStore": "App Store'dan İndir",
-    "stats": {
-      "languages": "Desteklenen Dil",
-      "notifications": "Günlük Bildirim",
-      "free": "Ücretsiz",
-      "freeNumber": "Ücretsiz",
-      "freeVersion": "Temel Sürüm",
-      "available": "24/7",
-      "availability": "Kullanılabilir"
-    }
-  },
-  "footer": {
-    "description": "Akıllı namaz arkadaşınız. Kesin vakitler, Ezan, Kuran, Kıble ve daha fazlası. 13 dilde mevcuttur.",
-    "download": "İndir",
-    "legal": "Yasal Bilgiler",
-    "support": "Destek",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyright": "MyAdhan. Tüm hakları saklıdır.",
-    "madeWith": "Geliştirildi",
-    "forCommunity": "Müslüman toplum için"
-  }
+    "nav":  {
+                "home":  "Ana Sayfa",
+                "features":  "Özellikler",
+                "screenshots":  "Ekran Görüntüleri",
+                "premium":  "Premium",
+                "download":  "İndir"
+            },
+    "hero":  {
+                 "badge":  "✨ iOS ve Android\u0027de Mevcut",
+                 "title":  "Akıllı Namaz",
+                 "titleHighlight":  "Arkadaşınız",
+                 "subtitle":  "Kesin namaz vakitleri, güzel ezan bildirimleri, Kuran, Hadis, Kıble yönü ve daha fazlasıyla hiçbir namazı kaçırmayın. 13 dilde mevcuttur.",
+                 "downloadBtn":  "Şimdi İndir",
+                 "learnMoreBtn":  "Daha Fazla Bilgi",
+                 "stats":  {
+                               "users":  "Aktif Kullanıcı",
+                               "languages":  "Dil",
+                               "rating":  "Puan",
+                               "downloads":  "İndirme",
+                               "prayers":  "5 Namaz",
+                               "free":  "100% Ücretsiz"
+                           }
+             },
+    "features":  {
+                     "title":  "İhtiyacınız Olan Her Şey",
+                     "titleHighlight":  "Ruhani Pratiğiniz İçin",
+                     "subtitle":  "Günlük İslam pratiğinizde size eşlik edecek eksiksiz bir uygulama",
+                     "feature1":  {
+                                      "title":  "Kesin Namaz Vakitleri",
+                                      "description":  "Konumunuza göre birden fazla hesaplama yöntemiyle otomatik hesaplamalar"
+                                  },
+                     "feature2":  {
+                                      "title":  "Kıble Yönü",
+                                      "description":  "Dünyanın her yerinde kesin Kıble yönü için entegre pusula"
+                                  },
+                     "feature3":  {
+                                      "title":  "Kuran ve Hadis",
+                                      "description":  "Tilâvet, çeviriler ve otantik Hadis koleksiyonlarıyla eksiksiz Kuran"
+                                  },
+                     "feature4":  {
+                                      "title":  "Akıllı Bildirimler",
+                                      "description":  "Android widget ile her namaz için özelleştirilebilir ezan"
+                                  },
+                     "feature5":  {
+                                      "title":  "13 Dil",
+                                      "description":  "Küresel bir deneyim için tam çok dilli destek"
+                                  },
+                     "feature6":  {
+                                      "title":  "Çevrimdışı Mod",
+                                      "description":  "İnternetsiz namaz vakitlerinize ve kayıtlı içeriğe erişim"
+                                  }
+                 },
+    "screenshots":  {
+                        "title":  "Keşfedin",
+                        "titleHighlight":  "MyAdhan Aksiyonda",
+                        "subtitle":  "Bu ekran görüntüleri aracılığıyla uygulamanın tüm özelliklerini keşfedin",
+                        "categories":  {
+                                           "core":  "Temel özellikler",
+                                           "islamic":  "İslami içerik",
+                                           "premium":  "Premium"
+                                       },
+                        "core":  {
+                                     "homescreen":  "Ana ekran",
+                                     "prayerTimes":  "Namaz vakitleri",
+                                     "weeklyCalendar":  "Haftalık takvim",
+                                     "howToPray":  "Nasıl namaz kılınır",
+                                     "prayerWidget":  "Namaz Vakitleri Widget\u0027ı",
+                                     "qibla":  "Kıble pusulası",
+                                     "calendar":  "İslami takvim",
+                                     "library":  "Kütüphane",
+                                     "more":  "Daha Fazla",
+                                     "darkTheme":  "Karanlık Tema",
+                                     "dhohrTheme":  "Öğle Teması",
+                                     "settings":  "Ayarlar"
+                                 },
+                        "islamic":  {
+                                        "quran":  "Kuran",
+                                        "quranReader":  "Kuran okuyucu",
+                                        "hadith":  "Hadisler",
+                                        "hadithBooks":  "Hadis kitapları",
+                                        "prophetStories":  "Peygamber Hikayeleri",
+                                        "dhikr":  "Zikir ve Dua",
+                                        "names99":  "Allah\u0027ın 99 İsmi",
+                                        "tasbih":  "Tesbih"
+                                    },
+                        "premiumFeatures":  {
+                                                "title":  "Premium",
+                                                "titleHighlight":  "Deneyimi",
+                                                "subtitle":  "Günlük manevi pratiğinizi zenginleştirmek için tasarlanmış özel özelliklerin kilidini açın.",
+                                                "cta":  "Premium planları görüntüle",
+                                                "ctaNote":  "Aylık 1,99€\u0027dan başlayan fiyatlarla · İstediğiniz zaman iptal edin",
+                                                "features":  {
+                                                                 "themes":  {
+                                                                                "title":  "Özel Temalar",
+                                                                                "description":  "Namaz anlarına adanmış benzersiz görsel temalarla uygulamayı kişiselleştirin: Sabah ve Akşam."
+                                                                            },
+                                                                 "stats":  {
+                                                                               "title":  "Namaz İstatistikleri",
+                                                                               "description":  "Detaylı grafikler ve aylık analizlerle namaz alışkanlıklarınızı takip edin."
+                                                                           },
+                                                                 "qibla":  {
+                                                                               "title":  "Premium Kıble Pusulası",
+                                                                               "description":  "Yüksek hassasiyetli ve şık tasarımlı tam özelleştirilebilir bir pusula arayüzü."
+                                                                           },
+                                                                 "audio":  {
+                                                                               "title":  "HD Tilaveler",
+                                                                               "description":  "Eşsiz bir manevi dinleme deneyimi için yüksek kaliteli Kuran tilavelerine erişin."
+                                                                           },
+                                                                 "widget":  {
+                                                                                "title":  "Kuran Okuma Widget\u0027ı",
+                                                                                "description":  "Özel Premium widget ile Kuranı doğrudan ana ekranınızdan okuyun ve dinleyin."
+                                                                            }
+                                                             }
+                                            },
+                        "premium":  {
+                                        "stats":  "Namaz istatistikleri",
+                                        "qiblaCustom":  "Özel pusula",
+                                        "sobhTheme":  "Sabah Teması (Premium)",
+                                        "maghribTheme":  "Akşam Teması (Premium)",
+                                        "quranWidget":  "Kuran Ses Widget\u0027ı",
+                                        "quranModal":  "Kuran Okuyucu Ayarları"
+                                    }
+                    },
+    "premiumFeatures":  {
+                            "title":  "Premium",
+                            "titleHighlight":  "Deneyimi",
+                            "subtitle":  "Günlük manevi pratiğinizi zenginleştirmek için tasarlanmış özel özelliklerin kilidini açın.",
+                            "cta":  "Premium planları görüntüle",
+                            "ctaNote":  "Aylık 1,99€\u0027dan başlayan fiyatlarla · İstediğiniz zaman iptal edin",
+                            "features":  {
+                                             "offline":  {
+                                                             "title":  "Tam Çevrimdışı Mod",
+                                                             "description":  "İnternet olmadan da ibadet edin. Hadisler, Kuran ve namaz vakitleri çevrimdışı kullanılabilir — camide veya seyahatte vazgeçilmez."
+                                                         },
+                                             "backup":  {
+                                                            "title":  "Bulut Yedekleme",
+                                                            "description":  "Telefon değiştirirken hiçbir şey kaybetmeyin. Favorileriniz, ayarlarınız ve Kuran ilerlemeniz otomatik olarak yedeklenir ve geri yüklenir."
+                                                        },
+                                             "stats":  {
+                                                           "title":  "Namaz İstatistikleri",
+                                                           "description":  "Her gün, hafta ve ay ilerlemenizi görselleştirin. Kaçırdığınız namazları fark edin ve kalıcı bir ibadet disiplini oluşturun."
+                                                       },
+                                             "content":  {
+                                                             "title":  "Sınırsız İçerik \u0026 Favoriler",
+                                                             "description":  "Özel Peygamber hikayelerinin kilidini açın ve istediğiniz kadar ayet, hadis ve dua kaydedin — sınır yok."
+                                                         },
+                                             "widget":  {
+                                                            "title":  "Kuran Okuma Widget\u0027ı",
+                                                            "description":  "Uygulamayı açmadan doğrudan ana ekranınızdan Kuran okuyun ve dinleyin. Kuranı gün boyu elinizin altında tutmak için mükemmel."
+                                                        },
+                                             "audio":  {
+                                                           "title":  "25\u0027ten Fazla HD Hafız",
+                                                           "description":  "Dünyaca ünlü 25\u0027ten fazla hafızın sesiyle Kuran\u0027ın tamamını yüksek kaliteli HD sesle dinleyin. Kalbinize dokunan sesi bulun."
+                                                       }
+                                         }
+                        },
+    "premium":  {
+                    "title":  "Yükselt",
+                    "titleHighlight":  "Premium\u0027a",
+                    "subtitle":  "Tüm özelliklerin kilidini açın ve uygulamanın gelişimini destekleyin",
+                    "popular":  "En Popüler",
+                    "infoBanner":  "Premium\u0027a abone olmak için MyAdhan uygulamasını indirin",
+                    "save":  "%17 Tasarruf",
+                    "comingSoon":  "Yakında",
+                    "downloadApp":  "Uygulamayı İndir",
+                    "monthly":  {
+                                    "title":  "Aylık",
+                                    "price":  "1,99€",
+                                    "period":  "/ay",
+                                    "features":  [
+                                                     "HD Tilavetler",
+                                                     "Namaz Analitikleri",
+                                                     "Premium Temalar",
+                                                     "Reklamsız",
+                                                     "Öncelikli Destek"
+                                                 ]
+                                },
+                    "yearly":  {
+                                   "title":  "Yıllık",
+                                   "price":  "19,99€",
+                                   "period":  "/yıl",
+                                   "features":  [
+                                                    "Tüm aylık özellikler",
+                                                    "2 ay ücretsiz",
+                                                    "Aylık istatistikler",
+                                                    "Özel içerik",
+                                                    "Öncelikli güncellemeler"
+                                                ]
+                               },
+                    "family":  {
+                                   "title":  "Aile",
+                                   "price":  "29,99€",
+                                   "period":  "/yıl",
+                                   "features":  [
+                                                    "Tüm yıllık özellikler",
+                                                    "6 üyeye kadar",
+                                                    "Çocuk profilleri",
+                                                    "Aile yönetimi",
+                                                    "Özel destek"
+                                                ]
+                               }
+                },
+    "download":  {
+                     "title":  "Mevcut",
+                     "titleHighlight":  "iOS ve Android",
+                     "subtitle":  "MyAdhan\u0027ı favori cihazınıza ücretsiz indirin ve ruhani yolculuğunuza bugün başlayın.",
+                     "googlePlay":  "Google Play\u0027den İndir",
+                     "appStore":  "App Store\u0027dan İndir",
+                     "stats":  {
+                                   "languages":  "Desteklenen Dil",
+                                   "notifications":  "Günlük Bildirim",
+                                   "free":  "Ücretsiz",
+                                   "freeNumber":  "Ücretsiz",
+                                   "freeVersion":  "Temel Sürüm",
+                                   "available":  "24/7",
+                                   "availability":  "Kullanılabilir"
+                               }
+                 },
+    "footer":  {
+                   "description":  "Akıllı namaz arkadaşınız. Kesin vakitler, Ezan, Kuran, Kıble ve daha fazlası. 13 dilde mevcuttur.",
+                   "download":  "İndir",
+                   "legal":  "Yasal Bilgiler",
+                   "support":  "Destek",
+                   "privacy":  "Gizlilik Politikası",
+                   "terms":  "Hizmet Şartları",
+                   "copyright":  "MyAdhan. Tüm hakları saklıdır.",
+                   "madeWith":  "Geliştirildi",
+                   "forCommunity":  "Müslüman toplum için"
+               }
 }

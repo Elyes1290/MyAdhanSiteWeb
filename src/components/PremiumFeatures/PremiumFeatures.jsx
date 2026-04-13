@@ -4,20 +4,22 @@ import { useTranslation } from "react-i18next";
 import {
   Crown,
   BarChart3,
-  Palette,
-  Compass,
   Headphones,
-  BookOpen,
+  BookOpenText,
+  WifiOff,
+  CloudUpload,
+  Heart,
   ArrowRight,
 } from "lucide-react";
 import "./PremiumFeatures.css";
 
 const FEATURES = [
-  { icon: Palette, key: "themes", gradient: "from-amber-500 to-orange-500", color: "#f59e0b" },
-  { icon: BarChart3, key: "stats", gradient: "from-blue-500 to-cyan-500", color: "#3b82f6" },
-  { icon: Compass, key: "qibla", gradient: "from-emerald-500 to-teal-500", color: "#10b981" },
-  { icon: Headphones, key: "audio", gradient: "from-purple-500 to-violet-500", color: "#8b5cf6" },
-  { icon: BookOpen, key: "widget", gradient: "from-rose-500 to-pink-500", color: "#f43f5e" },
+  { icon: Headphones,   key: "audio",   color: "#f59e0b" },
+  { icon: BookOpenText, key: "widget",  color: "#3b82f6" },
+  { icon: WifiOff,      key: "offline", color: "#10b981" },
+  { icon: CloudUpload,  key: "backup",  color: "#8b5cf6" },
+  { icon: BarChart3,    key: "stats",   color: "#f43f5e" },
+  { icon: Heart,        key: "content", color: "#ec4899" },
 ];
 
 const PremiumFeatures = () => {

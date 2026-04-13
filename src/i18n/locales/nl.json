@@ -1,225 +1,231 @@
 {
-  "nav": {
-    "home": "Home",
-    "features": "Functies",
-    "screenshots": "Screenshots",
-    "premium": "Premium",
-    "download": "Downloaden"
-  },
-  "hero": {
-    "badge": "✨ Nu beschikbaar op iOS & Android",
-    "title": "Uw Intelligente",
-    "titleHighlight": "Gebedsgids",
-    "subtitle": "Mis nooit een gebed met nauwkeurige gebedstijden, prachtige Adhan-meldingen, Koran, Hadith, Qibla-richting en meer. Beschikbaar in 13 talen.",
-    "downloadBtn": "Nu Downloaden",
-    "learnMoreBtn": "Meer Informatie",
-    "stats": {
-      "users": "Actieve Gebruikers",
-      "languages": "Talen",
-      "rating": "Beoordeling",
-      "downloads": "Downloads",
-      "prayers": "5 Gebeden",
-      "free": "100% Gratis"
-    }
-  },
-  "features": {
-    "title": "Alles Wat Je Nodig Hebt voor",
-    "titleHighlight": "Je Spirituele Praktijk",
-    "subtitle": "Een complete applicatie om je te begeleiden in je dagelijkse beoefening van de Islam",
-    "feature1": {
-      "title": "Nauwkeurige Gebedstijden",
-      "description": "Automatische berekeningen op basis van uw locatie met meerdere berekeningsmethoden"
-    },
-    "feature2": {
-      "title": "Qibla-richting",
-      "description": "Geïntegreerd kompas voor nauwkeurige Qibla-richting overal ter wereld"
-    },
-    "feature3": {
-      "title": "Koran en Hadith",
-      "description": "Volledige Koran met recitaties, vertalingen en authentieke Hadith-collecties"
-    },
-    "feature4": {
-      "title": "Slimme Meldingen",
-      "description": "Aanpasbare Adhan voor elk gebed met Android-widget"
-    },
-    "feature5": {
-      "title": "13 Talen",
-      "description": "Volledige meertalige ondersteuning voor een wereldwijde ervaring"
-    },
-    "feature6": {
-      "title": "Offline Modus",
-      "description": "Toegang tot uw gebedstijden en opgeslagen inhoud zonder internet"
-    }
-  },
-  "screenshots": {
-    "title": "Ontdek",
-    "titleHighlight": "MyAdhan in Actie",
-    "subtitle": "Verken alle app-functies door deze screenshots",
-    "categories": {
-      "core": "Kernfuncties",
-      "islamic": "Islamitische inhoud",
-      "premium": "Premium"
-    },
-    "core": {
-      "homescreen": "Startscherm",
-      "prayerTimes": "Gebedstijden",
-      "weeklyCalendar": "Weekkalender",
-      "howToPray": "Hoe te bidden",
-      "prayerWidget": "Gebedstijden Widget",
-      "qibla": "Qibla-kompas",
-      "calendar": "Islamitische kalender",
-      "library": "Bibliotheek",
-      "more": "Meer",
-      "darkTheme": "Donker Thema",
-      "dhohrTheme": "Dhuhr Thema",
-      "settings": "Instellingen"
-    },
-    "islamic": {
-      "quran": "Koran",
-      "quranReader": "Koran-lezer",
-      "hadith": "Hadiths",
-      "hadithBooks": "Hadith-boeken",
-      "prophetStories": "Verhalen van de Profeten",
-      "dhikr": "Dhikr & Dua'a",
-      "names99": "99 Namen van Allah",
-      "tasbih": "Tasbih"
-    },
-    "premiumFeatures": {
-    "title": "De",
-    "titleHighlight": "Premium Ervaring",
-    "subtitle": "Ontgrendel exclusieve functies ontworpen om uw dagelijkse spirituele praktijk te verrijken.",
-    "cta": "Bekijk Premium plannen",
-    "ctaNote": "Vanaf €1,99/maand · Altijd opzegbaar",
-    "features": {
-      "themes": {
-        "title": "Exclusieve Thema's",
-        "description": "Pas de app aan met unieke visuele thema's voor gebedsmomenten: Fajr en Maghrib."
-      },
-      "stats": {
-        "title": "Gebedstatistieken",
-        "description": "Volg uw gebedgewoonten met gedetailleerde grafieken en maandelijkse analyses."
-      },
-      "qibla": {
-        "title": "Premium Qibla-kompas",
-        "description": "Een volledig aangepaste kompainterface met hoge nauwkeurigheid en elegant ontwerp."
-      },
-      "audio": {
-        "title": "HD-recitaties",
-        "description": "Toegang tot Koran-recitaties in hoge audiokwaliteit voor een ongeëvenaarde spirituele ervaring."
-      },
-      "widget": {
-        "title": "Koran-leeswidget",
-        "description": "Lees en beluister de Koran direct vanaf uw startscherm met de exclusieve Premium-widget."
-      }
-    }
-  },  "premium": {
-      "stats": "Gebedsstatistieken",
-      "qiblaCustom": "Aangepast kompas",
-      "sobhTheme": "Fajr Thema (Premium)",
-      "maghribTheme": "Maghrib Thema (Premium)",
-      "quranWidget": "Koran Audio Widget",
-      "quranModal": "Koran Lezer Instellingen"
-    }
-  },
-  "premiumFeatures": {
-    "title": "De",
-    "titleHighlight": "Premium Ervaring",
-    "subtitle": "Ontgrendel exclusieve functies ontworpen om uw dagelijkse spirituele praktijk te verrijken.",
-    "cta": "Bekijk Premium plannen",
-    "ctaNote": "Vanaf €1,99/maand · Altijd opzegbaar",
-    "features": {
-      "themes": {
-        "title": "Exclusieve Thema's",
-        "description": "Pas de app aan met unieke visuele thema's voor gebedsmomenten: Fajr en Maghrib."
-      },
-      "stats": {
-        "title": "Gebedstatistieken",
-        "description": "Volg uw gebedgewoonten met gedetailleerde grafieken en maandelijkse analyses."
-      },
-      "qibla": {
-        "title": "Premium Qibla-kompas",
-        "description": "Een volledig aangepaste kompainterface met hoge nauwkeurigheid en elegant ontwerp."
-      },
-      "audio": {
-        "title": "HD-recitaties",
-        "description": "Toegang tot Koran-recitaties in hoge audiokwaliteit voor een ongeëvenaarde spirituele ervaring."
-      },
-      "widget": {
-        "title": "Koran-leeswidget",
-        "description": "Lees en beluister de Koran direct vanaf uw startscherm met de exclusieve Premium-widget."
-      }
-    }
-  },  "premium": {
-    "title": "Upgrade naar",
-    "titleHighlight": "Premium",
-    "subtitle": "Ontgrendel alle functies en ondersteun de ontwikkeling van de applicatie",
-    "popular": "Meest Populair",
-    "infoBanner": "Om Premium te abonneren, download de MyAdhan app",
-    "save": "Bespaar 17%",
-    "comingSoon": "Binnenkort Beschikbaar",
-    "downloadApp": "App Downloaden",
-    "monthly": {
-      "title": "Maandelijks",
-      "price": "1,99€",
-      "period": "/maand",
-      "features": [
-        "HD Recitaties",
-        "Gebedsanalyses",
-        "Premium Thema's",
-        "Geen Advertenties",
-        "Prioriteitsondersteuning"
-      ]
-    },
-    "yearly": {
-      "title": "Jaarlijks",
-      "price": "19,99€",
-      "period": "/jaar",
-      "features": [
-        "Alle maandelijkse functies",
-        "2 maanden gratis",
-        "Maandelijkse statistieken",
-        "Exclusieve inhoud",
-        "Prioriteitsupdates"
-      ]
-    },
-    "family": {
-      "title": "Familie",
-      "price": "29,99€",
-      "period": "/jaar",
-      "features": [
-        "Alle jaarlijkse functies",
-        "Tot 6 leden",
-        "Kinderprofielen",
-        "Familiebeheer",
-        "Toegewijde ondersteuning"
-      ]
-    }
-  },
-  "download": {
-    "title": "Beschikbaar op",
-    "titleHighlight": "iOS en Android",
-    "subtitle": "Download MyAdhan gratis op uw favoriete apparaat en begin vandaag uw spirituele reis.",
-    "googlePlay": "Downloaden op Google Play",
-    "appStore": "Downloaden op App Store",
-    "stats": {
-      "languages": "Ondersteunde Talen",
-      "notifications": "Meldingen per Dag",
-      "free": "Gratis",
-      "freeNumber": "Gratis",
-      "freeVersion": "Basisversie",
-      "available": "24/7",
-      "availability": "Beschikbaar"
-    }
-  },
-  "footer": {
-    "description": "Uw intelligente gebedsgids. Nauwkeurige tijden, Adhan, Koran, Qibla en meer. Beschikbaar in 13 talen.",
-    "download": "Downloaden",
-    "legal": "Juridische Informatie",
-    "support": "Ondersteuning",
-    "privacy": "Privacybeleid",
-    "terms": "Servicevoorwaarden",
-    "copyright": "MyAdhan. Alle rechten voorbehouden.",
-    "madeWith": "Ontwikkeld met",
-    "forCommunity": "voor de moslimgemeenschap"
-  }
+    "nav":  {
+                "home":  "Home",
+                "features":  "Functies",
+                "screenshots":  "Screenshots",
+                "premium":  "Premium",
+                "download":  "Downloaden"
+            },
+    "hero":  {
+                 "badge":  "✨ Nu beschikbaar op iOS \u0026 Android",
+                 "title":  "Uw Intelligente",
+                 "titleHighlight":  "Gebedsgids",
+                 "subtitle":  "Mis nooit een gebed met nauwkeurige gebedstijden, prachtige Adhan-meldingen, Koran, Hadith, Qibla-richting en meer. Beschikbaar in 13 talen.",
+                 "downloadBtn":  "Nu Downloaden",
+                 "learnMoreBtn":  "Meer Informatie",
+                 "stats":  {
+                               "users":  "Actieve Gebruikers",
+                               "languages":  "Talen",
+                               "rating":  "Beoordeling",
+                               "downloads":  "Downloads",
+                               "prayers":  "5 Gebeden",
+                               "free":  "100% Gratis"
+                           }
+             },
+    "features":  {
+                     "title":  "Alles Wat Je Nodig Hebt voor",
+                     "titleHighlight":  "Je Spirituele Praktijk",
+                     "subtitle":  "Een complete applicatie om je te begeleiden in je dagelijkse beoefening van de Islam",
+                     "feature1":  {
+                                      "title":  "Nauwkeurige Gebedstijden",
+                                      "description":  "Automatische berekeningen op basis van uw locatie met meerdere berekeningsmethoden"
+                                  },
+                     "feature2":  {
+                                      "title":  "Qibla-richting",
+                                      "description":  "Geïntegreerd kompas voor nauwkeurige Qibla-richting overal ter wereld"
+                                  },
+                     "feature3":  {
+                                      "title":  "Koran en Hadith",
+                                      "description":  "Volledige Koran met recitaties, vertalingen en authentieke Hadith-collecties"
+                                  },
+                     "feature4":  {
+                                      "title":  "Slimme Meldingen",
+                                      "description":  "Aanpasbare Adhan voor elk gebed met Android-widget"
+                                  },
+                     "feature5":  {
+                                      "title":  "13 Talen",
+                                      "description":  "Volledige meertalige ondersteuning voor een wereldwijde ervaring"
+                                  },
+                     "feature6":  {
+                                      "title":  "Offline Modus",
+                                      "description":  "Toegang tot uw gebedstijden en opgeslagen inhoud zonder internet"
+                                  }
+                 },
+    "screenshots":  {
+                        "title":  "Ontdek",
+                        "titleHighlight":  "MyAdhan in Actie",
+                        "subtitle":  "Verken alle app-functies door deze screenshots",
+                        "categories":  {
+                                           "core":  "Kernfuncties",
+                                           "islamic":  "Islamitische inhoud",
+                                           "premium":  "Premium"
+                                       },
+                        "core":  {
+                                     "homescreen":  "Startscherm",
+                                     "prayerTimes":  "Gebedstijden",
+                                     "weeklyCalendar":  "Weekkalender",
+                                     "howToPray":  "Hoe te bidden",
+                                     "prayerWidget":  "Gebedstijden Widget",
+                                     "qibla":  "Qibla-kompas",
+                                     "calendar":  "Islamitische kalender",
+                                     "library":  "Bibliotheek",
+                                     "more":  "Meer",
+                                     "darkTheme":  "Donker Thema",
+                                     "dhohrTheme":  "Dhuhr Thema",
+                                     "settings":  "Instellingen"
+                                 },
+                        "islamic":  {
+                                        "quran":  "Koran",
+                                        "quranReader":  "Koran-lezer",
+                                        "hadith":  "Hadiths",
+                                        "hadithBooks":  "Hadith-boeken",
+                                        "prophetStories":  "Verhalen van de Profeten",
+                                        "dhikr":  "Dhikr \u0026 Dua\u0027a",
+                                        "names99":  "99 Namen van Allah",
+                                        "tasbih":  "Tasbih"
+                                    },
+                        "premiumFeatures":  {
+                                                "title":  "De",
+                                                "titleHighlight":  "Premium Ervaring",
+                                                "subtitle":  "Ontgrendel exclusieve functies ontworpen om uw dagelijkse spirituele praktijk te verrijken.",
+                                                "cta":  "Bekijk Premium plannen",
+                                                "ctaNote":  "Vanaf €1,99/maand · Altijd opzegbaar",
+                                                "features":  {
+                                                                 "themes":  {
+                                                                                "title":  "Exclusieve Thema\u0027s",
+                                                                                "description":  "Pas de app aan met unieke visuele thema\u0027s voor gebedsmomenten: Fajr en Maghrib."
+                                                                            },
+                                                                 "stats":  {
+                                                                               "title":  "Gebedstatistieken",
+                                                                               "description":  "Volg uw gebedgewoonten met gedetailleerde grafieken en maandelijkse analyses."
+                                                                           },
+                                                                 "qibla":  {
+                                                                               "title":  "Premium Qibla-kompas",
+                                                                               "description":  "Een volledig aangepaste kompainterface met hoge nauwkeurigheid en elegant ontwerp."
+                                                                           },
+                                                                 "audio":  {
+                                                                               "title":  "HD-recitaties",
+                                                                               "description":  "Toegang tot Koran-recitaties in hoge audiokwaliteit voor een ongeëvenaarde spirituele ervaring."
+                                                                           },
+                                                                 "widget":  {
+                                                                                "title":  "Koran-leeswidget",
+                                                                                "description":  "Lees en beluister de Koran direct vanaf uw startscherm met de exclusieve Premium-widget."
+                                                                            }
+                                                             }
+                                            },
+                        "premium":  {
+                                        "stats":  "Gebedsstatistieken",
+                                        "qiblaCustom":  "Aangepast kompas",
+                                        "sobhTheme":  "Fajr Thema (Premium)",
+                                        "maghribTheme":  "Maghrib Thema (Premium)",
+                                        "quranWidget":  "Koran Audio Widget",
+                                        "quranModal":  "Koran Lezer Instellingen"
+                                    }
+                    },
+    "premiumFeatures":  {
+                            "title":  "De",
+                            "titleHighlight":  "Premium Ervaring",
+                            "subtitle":  "Ontgrendel exclusieve functies ontworpen om uw dagelijkse spirituele praktijk te verrijken.",
+                            "cta":  "Bekijk Premium plannen",
+                            "ctaNote":  "Vanaf €1,99/maand · Altijd opzegbaar",
+                            "features":  {
+                                             "offline":  {
+                                                             "title":  "Volledige Offlinemodus",
+                                                             "description":  "Bid overal — zelfs zonder netwerk. Hadiths, Koran en gebedstijden offline beschikbaar, onmisbaar in de moskee of op reis."
+                                                         },
+                                             "backup":  {
+                                                            "title":  "Cloudback-up",
+                                                            "description":  "Wissel van telefoon zonder iets te verliezen. Je favorieten, instellingen en Koran-voortgang worden automatisch opgeslagen en hersteld."
+                                                        },
+                                             "stats":  {
+                                                           "title":  "Gebedstatistieken",
+                                                           "description":  "Volg je voortgang elke dag, week en maand. Spoor gemiste gebeden op en bouw een duurzame spirituele discipline op."
+                                                       },
+                                             "content":  {
+                                                             "title":  "Onbeperkte Inhoud \u0026 Favorieten",
+                                                             "description":  "Ontgrendel exclusieve prophetenverhalen en sla zoveel verzen, hadiths en smeekbeden op als je wilt — zonder limiet."
+                                                         },
+                                             "widget":  {
+                                                            "title":  "Koran-leeswidget",
+                                                            "description":  "Lees en beluister de Koran direct vanaf je startscherm, zonder de app te openen. Ideaal om de Koran de hele dag bij de hand te hebben."
+                                                        },
+                                             "audio":  {
+                                                           "title":  "25+ HD-recitators",
+                                                           "description":  "Beluister de volledige Koran met meer dan 25 wereldberoemde recitators in HD-audiokwaliteit. Vind de stem die je hart raakt."
+                                                       }
+                                         }
+                        },
+    "premium":  {
+                    "title":  "Upgrade naar",
+                    "titleHighlight":  "Premium",
+                    "subtitle":  "Ontgrendel alle functies en ondersteun de ontwikkeling van de applicatie",
+                    "popular":  "Meest Populair",
+                    "infoBanner":  "Om Premium te abonneren, download de MyAdhan app",
+                    "save":  "Bespaar 17%",
+                    "comingSoon":  "Binnenkort Beschikbaar",
+                    "downloadApp":  "App Downloaden",
+                    "monthly":  {
+                                    "title":  "Maandelijks",
+                                    "price":  "1,99€",
+                                    "period":  "/maand",
+                                    "features":  [
+                                                     "HD Recitaties",
+                                                     "Gebedsanalyses",
+                                                     "Premium Thema\u0027s",
+                                                     "Geen Advertenties",
+                                                     "Prioriteitsondersteuning"
+                                                 ]
+                                },
+                    "yearly":  {
+                                   "title":  "Jaarlijks",
+                                   "price":  "19,99€",
+                                   "period":  "/jaar",
+                                   "features":  [
+                                                    "Alle maandelijkse functies",
+                                                    "2 maanden gratis",
+                                                    "Maandelijkse statistieken",
+                                                    "Exclusieve inhoud",
+                                                    "Prioriteitsupdates"
+                                                ]
+                               },
+                    "family":  {
+                                   "title":  "Familie",
+                                   "price":  "29,99€",
+                                   "period":  "/jaar",
+                                   "features":  [
+                                                    "Alle jaarlijkse functies",
+                                                    "Tot 6 leden",
+                                                    "Kinderprofielen",
+                                                    "Familiebeheer",
+                                                    "Toegewijde ondersteuning"
+                                                ]
+                               }
+                },
+    "download":  {
+                     "title":  "Beschikbaar op",
+                     "titleHighlight":  "iOS en Android",
+                     "subtitle":  "Download MyAdhan gratis op uw favoriete apparaat en begin vandaag uw spirituele reis.",
+                     "googlePlay":  "Downloaden op Google Play",
+                     "appStore":  "Downloaden op App Store",
+                     "stats":  {
+                                   "languages":  "Ondersteunde Talen",
+                                   "notifications":  "Meldingen per Dag",
+                                   "free":  "Gratis",
+                                   "freeNumber":  "Gratis",
+                                   "freeVersion":  "Basisversie",
+                                   "available":  "24/7",
+                                   "availability":  "Beschikbaar"
+                               }
+                 },
+    "footer":  {
+                   "description":  "Uw intelligente gebedsgids. Nauwkeurige tijden, Adhan, Koran, Qibla en meer. Beschikbaar in 13 talen.",
+                   "download":  "Downloaden",
+                   "legal":  "Juridische Informatie",
+                   "support":  "Ondersteuning",
+                   "privacy":  "Privacybeleid",
+                   "terms":  "Servicevoorwaarden",
+                   "copyright":  "MyAdhan. Alle rechten voorbehouden.",
+                   "madeWith":  "Ontwikkeld met",
+                   "forCommunity":  "voor de moslimgemeenschap"
+               }
 }
