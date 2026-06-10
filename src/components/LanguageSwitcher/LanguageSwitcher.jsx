@@ -1,30 +1,16 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Globe, Check } from "lucide-react";
+import { LANGUAGES, normalizeLanguageCode } from "../../constants/languages";
 import "./LanguageSwitcher.css";
 
 const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  const languages = [
-    { code: "en", name: "English", flag: "🇬🇧" },
-    { code: "fr", name: "Français", flag: "🇫🇷" },
-    { code: "ar", name: "العربية", flag: "🇸🇦" },
-    { code: "es", name: "Español", flag: "🇪🇸" },
-    { code: "de", name: "Deutsch", flag: "🇩🇪" },
-    { code: "it", name: "Italiano", flag: "🇮🇹" },
-    { code: "nl", name: "Nederlands", flag: "🇳🇱" },
-    { code: "pt", name: "Português", flag: "🇵🇹" },
-    { code: "ru", name: "Русский", flag: "🇷🇺" },
-    { code: "tr", name: "Türkçe", flag: "🇹🇷" },
-    { code: "ur", name: "اردو", flag: "🇵🇰" },
-    { code: "bn", name: "বাংলা", flag: "🇧🇩" },
-    { code: "fa", name: "فارسی", flag: "🇮🇷" },
-  ];
-
+  const activeCode = normalizeLanguageCode(i18n.language);
   const currentLanguage =
-    languages.find((lang) => lang.code === i18n.language) || languages[0];
+    LANGUAGES.find((lang) => lang.code === activeCode) || LANGUAGES[0];
 
   const changeLanguage = (langCode) => {
     i18n.changeLanguage(langCode);
@@ -34,9 +20,11 @@ const LanguageSwitcher = () => {
   return (
     <div className="language-switcher">
       <button
+        type="button"
         className="language-button"
         onClick={() => setIsOpen(!isOpen)}
-        aria-label="Change language"
+        aria-label={t("common.changeLanguage")}
+        aria-expanded={isOpen}
       >
         <Globe className="language-icon" />
         <span className="language-name">
@@ -46,17 +34,24 @@ const LanguageSwitcher = () => {
 
       {isOpen && (
         <>
-          <div className="language-overlay" onClick={() => setIsOpen(false)} />
-          <div className="language-dropdown">
-            {languages.map((lang) => (
+          <button
+            type="button"
+            className="language-overlay"
+            onClick={() => setIsOpen(false)}
+            aria-label={t("common.close", "Close")}
+          />
+          <div className="language-dropdown" aria-label={t("common.changeLanguage")}>
+            {LANGUAGES.map((lang) => (
               <button
                 key={lang.code}
-                className={`language-option ${i18n.language === lang.code ? "active" : ""}`}
+                type="button"
+                aria-current={activeCode === lang.code ? "true" : undefined}
+                className={`language-option ${activeCode === lang.code ? "active" : ""}`}
                 onClick={() => changeLanguage(lang.code)}
               >
                 <span className="language-flag">{lang.flag}</span>
                 <span className="language-label">{lang.name}</span>
-                {i18n.language === lang.code && (
+                {activeCode === lang.code && (
                   <Check className="language-check" />
                 )}
               </button>

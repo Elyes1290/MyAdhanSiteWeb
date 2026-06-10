@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-// eslint-disable-next-line no-unused-vars
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "../LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -29,10 +28,13 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="nav-container">
-        <motion.div
+        <m.button
+          type="button"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           className="nav-logo"
+          onClick={() => scrollToSection("home")}
+          aria-label={t("nav.home")}
         >
           <div className="logo-icon">
             <img
@@ -42,13 +44,13 @@ const Navigation = () => {
             />
           </div>
           <span className="logo-text">MyAdhan</span>
-        </motion.div>
+        </m.button>
 
-        {/* Desktop Navigation */}
         <div className="nav-desktop">
           {navItems.map((item) => (
             <button
               key={item.id}
+              type="button"
               onClick={() => scrollToSection(item.id)}
               className="nav-link"
             >
@@ -58,12 +60,14 @@ const Navigation = () => {
           <LanguageSwitcher />
         </div>
 
-        {/* Mobile menu button */}
         <div className="nav-mobile-actions">
           <LanguageSwitcher />
           <button
+            type="button"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="nav-mobile-toggle"
+            aria-label={isMenuOpen ? t("common.close", "Close") : t("nav.menu", "Menu")}
+            aria-expanded={isMenuOpen}
           >
             {isMenuOpen ? (
               <X className="mobile-icon" />
@@ -74,9 +78,8 @@ const Navigation = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       {isMenuOpen && (
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -85,13 +88,14 @@ const Navigation = () => {
           {navItems.map((item) => (
             <button
               key={item.id}
+              type="button"
               onClick={() => scrollToSection(item.id)}
               className="nav-mobile-link"
             >
               {item.label}
             </button>
           ))}
-        </motion.div>
+        </m.div>
       )}
     </nav>
   );

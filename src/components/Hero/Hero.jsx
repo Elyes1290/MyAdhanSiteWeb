@@ -1,26 +1,20 @@
 import React, { useState } from "react";
-// eslint-disable-next-line no-unused-vars
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import {
-  Download,
-  Play,
-  ArrowRight,
-  Sparkles,
-  Globe,
-  Bell,
-  X,
-} from "lucide-react";
+import { Sparkles, Globe, Bell, X, Smartphone, Download, Play } from "lucide-react";
+import { APP_STORE_URL, PLAY_STORE_URL } from "../../constants/storeUrls";
 import "./Hero.css";
 
 const Hero = () => {
   const { t } = useTranslation();
   const [showVideo, setShowVideo] = useState(false);
+  const pills = t("hero.pills", { returnObjects: true });
 
   return (
     <section id="home" className="hero">
       <div className="hero-container">
-        <motion.div
+
+        <m.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -32,11 +26,7 @@ const Hero = () => {
           </div>
 
           <div className="hero-logo">
-            <img
-              src="/images/icon.png"
-              alt="MyAdhan Logo"
-              className="hero-logo-image"
-            />
+            <img src="/images/icon.png" alt="MyAdhan Logo" className="hero-logo-image" />
           </div>
 
           <h1 className="hero-title">
@@ -44,82 +34,127 @@ const Hero = () => {
             <span className="hero-title-gradient">{t("hero.titleHighlight")}</span>
           </h1>
 
-          <p className="hero-description">
-            {t("hero.subtitle")}
-          </p>
-        </motion.div>
+          <p className="hero-tagline">{t("hero.tagline")}</p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="hero-buttons"
-        >
-          <a
-            href="https://play.google.com/store/apps/details?id=com.drogbinho.prayertimesapp2&pcampaignid=web_share"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hero-btn-primary"
+          <p className="hero-description">{t("hero.subtitle")}</p>
+
+          <m.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            className="hero-pills"
           >
-            <Download className="btn-icon" />
-            <span>{t("hero.downloadBtn")}</span>
-            <ArrowRight className="btn-arrow" />
-          </a>
-          <button
-            className="hero-btn-secondary"
+            {pills.map((pill) => (
+              <span key={pill} className="hero-pill">
+                <span className="hero-pill-check">✓</span>
+                {pill}
+              </span>
+            ))}
+          </m.div>
+
+          <m.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.25 }}
+            className="hero-store-badges"
+          >
+            <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="store-badge">
+              <Smartphone className="store-badge-icon" />
+              <div className="store-badge-text">
+                <span className="store-badge-sub">{t("hero.stores.availableOn")}</span>
+                <span className="store-badge-name">{t("hero.stores.appStore")}</span>
+              </div>
+            </a>
+            <a href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer" className="store-badge">
+              <Download className="store-badge-icon" />
+              <div className="store-badge-text">
+                <span className="store-badge-sub">{t("hero.stores.getItOn")}</span>
+                <span className="store-badge-name">{t("hero.stores.googlePlay")}</span>
+              </div>
+            </a>
+          </m.div>
+
+          <m.button
+            type="button"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="hero-video-btn"
             onClick={() => setShowVideo(true)}
           >
-            <Play className="btn-icon" />
-            <span>{t("hero.learnMoreBtn")}</span>
-          </button>
-        </motion.div>
+            <span className="hero-video-play"><Play size={14} /></span>
+            {t("hero.watchVideo")}
+          </m.button>
+        </m.div>
 
-        <motion.div
+        <m.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className="hero-phone-wrapper"
+        >
+          <m.div
+            animate={{ y: [0, -14, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            className="hero-phone"
+          >
+            <div className="phone-glow" />
+            <div className="phone-frame">
+              <div className="phone-notch" />
+              <img
+                src="/images/homescreen.jpg"
+                alt="MyAdhan App"
+                className="phone-screen"
+              />
+            </div>
+          </m.div>
+        </m.div>
+
+        <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
           className="hero-stats"
         >
           <div className="stat-item">
-            <div className="stat-icon">
-              <Globe className="stat-icon-svg" />
-            </div>
+            <div className="stat-icon"><Globe className="stat-icon-svg" /></div>
             <span className="stat-text">{t("hero.stats.languages")}</span>
           </div>
           <div className="stat-item">
-            <div className="stat-icon">
-              <Bell className="stat-icon-svg" />
-            </div>
+            <div className="stat-icon"><Bell className="stat-icon-svg" /></div>
             <span className="stat-text">{t("hero.stats.prayers")}</span>
           </div>
           <div className="stat-item">
-            <div className="stat-icon">
-              <Sparkles className="stat-icon-svg" />
-            </div>
+            <div className="stat-icon"><Sparkles className="stat-icon-svg" /></div>
             <span className="stat-text">{t("hero.stats.free")}</span>
           </div>
-        </motion.div>
+        </m.div>
       </div>
 
-      {/* Modal Vidéo */}
       {showVideo && (
-        <motion.div
+        <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className="video-modal-overlay"
           onClick={() => setShowVideo(false)}
+          role="presentation"
         >
-          <motion.div
+          <m.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.8, opacity: 0 }}
             className="video-modal"
             onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={t("hero.watchVideo")}
           >
             <button
+              type="button"
               className="video-modal-close"
               onClick={() => setShowVideo(false)}
+              aria-label={t("common.close", "Close")}
             >
               <X size={24} />
             </button>
@@ -127,13 +162,14 @@ const Hero = () => {
               className="video-player"
               controls
               autoPlay
-              muted
+              preload="metadata"
               src="/videos/presentation_app.mp4"
+              aria-label={t("hero.watchVideo")}
             >
-              {t("hero.videoNotSupported")}
+              <track kind="captions" srcLang="en" label={t("hero.captions", "Captions")} />
             </video>
-          </motion.div>
-        </motion.div>
+          </m.div>
+        </m.div>
       )}
     </section>
   );

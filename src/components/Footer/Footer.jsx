@@ -1,45 +1,49 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Heart, Mail, ExternalLink } from "lucide-react";
+import { APP_STORE_URL, PLAY_STORE_URL } from "../../constants/storeUrls";
 import "./Footer.css";
+
+const LEGAL_LINKS = [
+  {
+    id: "privacy",
+    labelKey: "footer.privacy",
+    url: "https://www.myadhanapp.com/public/privacy-policy.html",
+  },
+  {
+    id: "terms",
+    labelKey: "footer.terms",
+    url: "https://www.myadhanapp.com/public/terms-of-service.html",
+  },
+];
 
 const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
-  const legalLinks = [
-    {
-      labelKey: "footer.privacy",
-      url: "https://www.myadhanapp.com/public/privacy-policy.html",
-    },
-    {
-      labelKey: "footer.terms",
-      url: "https://www.myadhanapp.com/public/terms-of-service.html",
-    },
-  ];
-
   const appLinks = [
     {
-      label: "Google Play",
-      url: "https://play.google.com/store/apps/details?id=com.drogbinho.prayertimesapp2",
+      id: "google-play",
+      label: t("common.googlePlay"),
+      url: PLAY_STORE_URL,
     },
     {
-      label: "App Store",
-      url: "https://apps.apple.com/ch/app/myadhan-muslim-prayer-app/id6756371160",
+      id: "app-store",
+      label: t("common.appStore"),
+      url: APP_STORE_URL,
     },
   ];
 
   return (
     <footer className="footer">
       <div className="footer-container">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="footer-content"
         >
-          {/* Logo et description */}
           <div className="footer-section footer-brand">
             <div className="footer-logo">
               <div className="footer-logo-icon">
@@ -56,12 +60,11 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Liens Téléchargement */}
           <div className="footer-section">
             <h3 className="footer-section-title">{t("footer.download")}</h3>
             <ul className="footer-links">
-              {appLinks.map((link, index) => (
-                <li key={index}>
+              {appLinks.map((link) => (
+                <li key={link.id}>
                   <a
                     href={link.url}
                     target="_blank"
@@ -76,12 +79,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Liens légaux */}
           <div className="footer-section">
             <h3 className="footer-section-title">{t("footer.legal")}</h3>
             <ul className="footer-links">
-              {legalLinks.map((link, index) => (
-                <li key={index}>
+              {LEGAL_LINKS.map((link) => (
+                <li key={link.id}>
                   <a
                     href={link.url}
                     target="_blank"
@@ -96,7 +98,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div className="footer-section">
             <h3 className="footer-section-title">{t("footer.support")}</h3>
             <ul className="footer-links">
@@ -108,10 +109,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </motion.div>
+        </m.div>
 
-        {/* Copyright */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -123,7 +123,7 @@ const Footer = () => {
           <p className="footer-made-with">
             {t("footer.madeWith")} <Heart className="footer-heart" /> {t("footer.forCommunity")}
           </p>
-        </motion.div>
+        </m.div>
       </div>
     </footer>
   );

@@ -1,231 +1,276 @@
 {
-    "nav":  {
-                "home":  "Inicio",
-                "features":  "Características",
-                "screenshots":  "Capturas",
-                "premium":  "Premium",
-                "download":  "Descargar"
-            },
-    "hero":  {
-                 "badge":  "✨ Disponible en iOS y Android",
-                 "title":  "Tu Compañero Inteligente",
-                 "titleHighlight":  "de Oración",
-                 "subtitle":  "Nunca te pierdas una oración con horarios precisos, hermosas notificaciones de Adhan, Corán, Hadith, dirección de Qibla y mucho más. Disponible en 13 idiomas.",
-                 "downloadBtn":  "Descargar Ahora",
-                 "learnMoreBtn":  "Saber Más",
-                 "stats":  {
-                               "users":  "Usuarios Activos",
-                               "languages":  "Idiomas",
-                               "rating":  "Calificación",
-                               "downloads":  "Descargas",
-                               "prayers":  "5 Oraciones",
-                               "free":  "100% Gratis"
-                           }
-             },
-    "features":  {
-                     "title":  "Todo Lo Que Necesitas para",
-                     "titleHighlight":  "Tu Práctica Espiritual",
-                     "subtitle":  "Una aplicación completa para acompañarte en tu práctica diaria del Islam",
-                     "feature1":  {
-                                      "title":  "Horarios de Oración Precisos",
-                                      "description":  "Cálculos automáticos basados en tu ubicación con múltiples métodos de cálculo"
-                                  },
-                     "feature2":  {
-                                      "title":  "Dirección de Qibla",
-                                      "description":  "Brújula integrada para dirección precisa de Qibla en cualquier parte del mundo"
-                                  },
-                     "feature3":  {
-                                      "title":  "Corán y Hadith",
-                                      "description":  "Corán completo con recitaciones, traducciones y colecciones auténticas de Hadith"
-                                  },
-                     "feature4":  {
-                                      "title":  "Notificaciones Inteligentes",
-                                      "description":  "Adhan personalizable para cada oración con widget de Android"
-                                  },
-                     "feature5":  {
-                                      "title":  "13 Idiomas",
-                                      "description":  "Soporte multilingüe completo para una experiencia global"
-                                  },
-                     "feature6":  {
-                                      "title":  "Modo Sin Conexión",
-                                      "description":  "Accede a tus horarios de oración y contenido guardado sin internet"
-                                  }
-                 },
-    "screenshots":  {
-                        "title":  "Descubre",
-                        "titleHighlight":  "MyAdhan en Acción",
-                        "subtitle":  "Explora todas las funciones de la aplicación a través de estas capturas de pantalla",
-                        "categories":  {
-                                           "core":  "Funciones principales",
-                                           "islamic":  "Contenido islámico",
-                                           "premium":  "Premium"
-                                       },
-                        "core":  {
-                                     "homescreen":  "Pantalla de inicio",
-                                     "prayerTimes":  "Horarios de oración",
-                                     "weeklyCalendar":  "Calendario semanal",
-                                     "howToPray":  "Cómo orar",
-                                     "prayerWidget":  "Widget de Horarios de Oración",
-                                     "qibla":  "Brújula Qibla",
-                                     "calendar":  "Calendario islámico",
-                                     "library":  "Biblioteca",
-                                     "more":  "Más",
-                                     "darkTheme":  "Tema Oscuro",
-                                     "dhohrTheme":  "Tema Dhuhr",
-                                     "settings":  "Configuración"
-                                 },
-                        "islamic":  {
-                                        "quran":  "Corán",
-                                        "quranReader":  "Lector de Corán",
-                                        "hadith":  "Hadiths",
-                                        "hadithBooks":  "Libros de Hadiths",
-                                        "prophetStories":  "Historias de los Profetas",
-                                        "dhikr":  "Dhikr y Dua\u0027a",
-                                        "names99":  "99 Nombres de Alá",
-                                        "tasbih":  "Tasbih"
-                                    },
-                        "premiumFeatures":  {
-                                                "title":  "La",
-                                                "titleHighlight":  "Experiencia Premium",
-                                                "subtitle":  "Desbloquea funciones exclusivas diseñadas para enriquecer tu práctica espiritual diaria.",
-                                                "cta":  "Ver planes Premium",
-                                                "ctaNote":  "Desde 1,99€/mes · Cancela cuando quieras",
-                                                "features":  {
-                                                                 "themes":  {
-                                                                                "title":  "Temas Exclusivos",
-                                                                                "description":  "Personaliza la app con temas visuales únicos dedicados a los momentos de oración: Fajr y Maghrib."
-                                                                            },
-                                                                 "stats":  {
-                                                                               "title":  "Estadísticas de Oración",
-                                                                               "description":  "Sigue tus hábitos de oración con gráficos detallados, análisis mensuales y tu progreso."
-                                                                           },
-                                                                 "qibla":  {
-                                                                               "title":  "Brújula Qibla Premium",
-                                                                               "description":  "Una interfaz de brújula completamente personalizada con alta precisión y diseño elegante."
-                                                                           },
-                                                                 "audio":  {
-                                                                               "title":  "Recitaciones HD",
-                                                                               "description":  "Accede a recitaciones del Corán en calidad de audio HD para una experiencia espiritual incomparable."
-                                                                           },
-                                                                 "widget":  {
-                                                                                "title":  "Widget de Lectura del Corán",
-                                                                                "description":  "Lee y escucha el Corán directamente desde tu pantalla de inicio con el widget Premium exclusivo."
-                                                                            }
-                                                             }
-                                            },
-                        "premium":  {
-                                        "stats":  "Estadísticas de oración",
-                                        "qiblaCustom":  "Brújula personalizada",
-                                        "sobhTheme":  "Tema Fajr (Premium)",
-                                        "maghribTheme":  "Tema Maghrib (Premium)",
-                                        "quranWidget":  "Widget de Audio del Corán",
-                                        "quranModal":  "Configuración de Lectura del Corán"
-                                    }
-                    },
-    "premiumFeatures":  {
-                            "title":  "La",
-                            "titleHighlight":  "Experiencia Premium",
-                            "subtitle":  "Desbloquea funciones exclusivas diseñadas para enriquecer tu práctica espiritual diaria.",
-                            "cta":  "Ver planes Premium",
-                            "ctaNote":  "Desde 1,99€/mes · Cancela cuando quieras",
-                            "features":  {
-                                             "offline":  {
-                                                             "title":  "Modo Sin Conexión Completo",
-                                                             "description":  "Reza en cualquier lugar — incluso sin señal. Hadiths, Corán y horarios de oración disponibles sin conexión, imprescindible en la mezquita o de viaje."
-                                                         },
-                                             "backup":  {
-                                                            "title":  "Copia de Seguridad en la Nube",
-                                                            "description":  "Cambia de teléfono sin perder nada. Tus favoritos, ajustes y progreso en el Corán se guardan y restauran automáticamente."
-                                                        },
-                                             "stats":  {
-                                                           "title":  "Estadísticas de Oración",
-                                                           "description":  "Visualiza tu progreso cada día, semana y mes. Identifica oraciones perdidas y construye una disciplina espiritual duradera."
-                                                       },
-                                             "content":  {
-                                                             "title":  "Contenido y Favoritos Ilimitados",
-                                                             "description":  "Desbloquea historias de profetas exclusivas y guarda todos los versículos, hadiths y súplicas que quieras — sin límites."
-                                                         },
-                                             "widget":  {
-                                                            "title":  "Widget de Lectura del Corán",
-                                                            "description":  "Lee y escucha el Corán directamente desde tu pantalla de inicio, sin abrir la app. Perfecto para tener el Corán a mano durante todo el día."
-                                                        },
-                                             "audio":  {
-                                                           "title":  "25+ Recitadores HD",
-                                                           "description":  "Escucha el Corán completo con más de 25 recitadores de renombre mundial en calidad de audio HD. Encuentra la voz que toca tu corazón."
-                                                       }
-                                         }
-                        },
-    "premium":  {
-                    "title":  "Actualiza a",
-                    "titleHighlight":  "Premium",
-                    "subtitle":  "Desbloquea todas las funciones y apoya el desarrollo de la aplicación",
-                    "popular":  "Más Popular",
-                    "infoBanner":  "Para suscribirse a Premium, descarga la aplicación MyAdhan",
-                    "save":  "Ahorra 17%",
-                    "comingSoon":  "Próximamente",
-                    "downloadApp":  "Descargar App",
-                    "monthly":  {
-                                    "title":  "Mensual",
-                                    "price":  "1,99€",
-                                    "period":  "/mes",
-                                    "features":  [
-                                                     "Recitaciones HD",
-                                                     "Análisis de Oración",
-                                                     "Temas Premium",
-                                                     "Sin Anuncios",
-                                                     "Soporte Prioritario"
-                                                 ]
-                                },
-                    "yearly":  {
-                                   "title":  "Anual",
-                                   "price":  "19,99€",
-                                   "period":  "/año",
-                                   "features":  [
-                                                    "Todas las funciones mensuales",
-                                                    "2 meses gratis",
-                                                    "Estadísticas mensuales",
-                                                    "Contenido exclusivo",
-                                                    "Actualizaciones prioritarias"
-                                                ]
-                               },
-                    "family":  {
-                                   "title":  "Familiar",
-                                   "price":  "29,99€",
-                                   "period":  "/año",
-                                   "features":  [
-                                                    "Todas las funciones anuales",
-                                                    "Hasta 6 miembros",
-                                                    "Perfiles infantiles",
-                                                    "Gestión familiar",
-                                                    "Soporte dedicado"
-                                                ]
-                               }
+    "nav": {
+        "home": "Inicio",
+        "features": "Características",
+        "screenshots": "Capturas",
+        "premium": "Premium",
+        "download": "Descargar",
+        "menu": "Menú"
+    },
+    "hero": {
+        "badge": "✨ Disponible en iOS y Android",
+        "title": "No te pierdas",
+        "titleHighlight": "ni una sola oración.",
+        "subtitle": "Horarios precisos, notificaciones de Adhan, Qibla, Corán, Hadiths y herramientas islámicas — todo en una app limpia y elegante.",
+        "downloadBtn": "Descargar Ahora",
+        "learnMoreBtn": "Saber Más",
+        "stats": {
+            "users": "Usuarios Activos",
+            "languages": "Idiomas",
+            "rating": "Calificación",
+            "downloads": "Descargas",
+            "prayers": "5 Oraciones",
+            "free": "100% Gratis"
+        },
+        "stores": {
+            "availableOn": "Disponible en",
+            "getItOn": "Disponible en",
+            "appStore": "App Store",
+            "googlePlay": "Google Play"
+        },
+        "pills": [
+            "Horarios precisos",
+            "Notificaciones de Adhan",
+            "Corán, Qibla y Dhikr"
+        ],
+        "tagline": "La app musulmana más bella y más precisa.",
+        "watchVideo": "Ver el vídeo de presentación"
+    },
+    "features": {
+        "title": "Todo Lo Que Necesitas para",
+        "titleHighlight": "Tu Práctica Espiritual",
+        "subtitle": "Una aplicación completa para acompañarte en tu práctica diaria del Islam",
+        "feature1": {
+            "title": "Horarios de Oración Precisos",
+            "description": "Cálculos automáticos basados en tu ubicación con múltiples métodos de cálculo"
+        },
+        "feature2": {
+            "title": "Dirección de Qibla",
+            "description": "Brújula integrada para dirección precisa de Qibla en cualquier parte del mundo"
+        },
+        "feature3": {
+            "title": "Corán y Hadith",
+            "description": "Corán completo con recitaciones, traducciones y colecciones auténticas de Hadith"
+        },
+        "feature4": {
+            "title": "Notificaciones Inteligentes",
+            "description": "Adhan personalizable para cada oración con widget de Android"
+        },
+        "feature5": {
+            "title": "13 Idiomas",
+            "description": "Soporte multilingüe completo para una experiencia global"
+        },
+        "feature6": {
+            "title": "Modo Sin Conexión",
+            "description": "Accede a tus horarios de oración y contenido guardado sin internet"
+        }
+    },
+    "screenshots": {
+        "title": "Descubre",
+        "titleHighlight": "MyAdhan en Acción",
+        "subtitle": "Explora todas las funciones de la aplicación a través de estas capturas de pantalla",
+        "categories": {
+            "core": "Funciones principales",
+            "islamic": "Contenido islámico",
+            "premium": "Premium"
+        },
+        "core": {
+            "homescreen": "Pantalla de inicio",
+            "prayerTimes": "Horarios de oración",
+            "weeklyCalendar": "Calendario semanal",
+            "howToPray": "Cómo orar",
+            "prayerWidget": "Widget de Horarios de Oración",
+            "qibla": "Brújula Qibla",
+            "calendar": "Calendario islámico",
+            "library": "Biblioteca",
+            "more": "Más",
+            "darkTheme": "Tema Oscuro",
+            "dhohrTheme": "Tema Dhuhr",
+            "settings": "Configuración"
+        },
+        "islamic": {
+            "quran": "Corán",
+            "quranReader": "Lector de Corán",
+            "hadith": "Hadiths",
+            "hadithBooks": "Libros de Hadiths",
+            "prophetStories": "Historias de los Profetas",
+            "dhikr": "Dhikr y Dua'a",
+            "names99": "99 Nombres de Alá",
+            "tasbih": "Tasbih"
+        },
+        "premiumFeatures": {
+            "title": "La",
+            "titleHighlight": "Experiencia Premium",
+            "subtitle": "Desbloquea funciones exclusivas diseñadas para enriquecer tu práctica espiritual diaria.",
+            "cta": "Ver planes Premium",
+            "ctaNote": "Desde 1,99€/mes · Cancela cuando quieras",
+            "features": {
+                "themes": {
+                    "title": "Temas Exclusivos",
+                    "description": "Personaliza la app con temas visuales únicos dedicados a los momentos de oración: Fajr y Maghrib."
                 },
-    "download":  {
-                     "title":  "Disponible en",
-                     "titleHighlight":  "iOS y Android",
-                     "subtitle":  "Descarga MyAdhan gratis en tu dispositivo favorito y comienza tu viaje espiritual hoy.",
-                     "googlePlay":  "Descargar en Google Play",
-                     "appStore":  "Descargar en App Store",
-                     "stats":  {
-                                   "languages":  "Idiomas Soportados",
-                                   "notifications":  "Notificaciones por Día",
-                                   "free":  "Gratis",
-                                   "freeNumber":  "Gratis",
-                                   "freeVersion":  "Versión Básica",
-                                   "available":  "24/7",
-                                   "availability":  "Disponible"
-                               }
-                 },
-    "footer":  {
-                   "description":  "Tu compañero inteligente de oración. Horarios precisos, Adhan, Corán, Qibla y mucho más. Disponible en 13 idiomas.",
-                   "download":  "Descargar",
-                   "legal":  "Información Legal",
-                   "support":  "Soporte",
-                   "privacy":  "Política de Privacidad",
-                   "terms":  "Términos de Servicio",
-                   "copyright":  "MyAdhan. Todos los derechos reservados.",
-                   "madeWith":  "Desarrollado con",
-                   "forCommunity":  "para la comunidad musulmana"
-               }
+                "stats": {
+                    "title": "Estadísticas de Oración",
+                    "description": "Sigue tus hábitos de oración con gráficos detallados, análisis mensuales y tu progreso."
+                },
+                "qibla": {
+                    "title": "Brújula Qibla Premium",
+                    "description": "Una interfaz de brújula completamente personalizada con alta precisión y diseño elegante."
+                },
+                "audio": {
+                    "title": "Recitaciones HD",
+                    "description": "Accede a recitaciones del Corán en calidad de audio HD para una experiencia espiritual incomparable."
+                },
+                "widget": {
+                    "title": "Widget de Lectura del Corán",
+                    "description": "Lee y escucha el Corán directamente desde tu pantalla de inicio con el widget Premium exclusivo."
+                }
+            }
+        },
+        "premium": {
+            "stats": "Estadísticas de oración",
+            "qiblaCustom": "Brújula personalizada",
+            "sobhTheme": "Tema Fajr (Premium)",
+            "maghribTheme": "Tema Maghrib (Premium)",
+            "quranWidget": "Widget de Audio del Corán",
+            "quranModal": "Configuración de Lectura del Corán"
+        },
+        "showMore": "Ver {{count}} capturas más",
+        "showLess": "Ver menos"
+    },
+    "premiumFeatures": {
+        "title": "La",
+        "titleHighlight": "Experiencia Premium",
+        "subtitle": "Desbloquea funciones exclusivas diseñadas para enriquecer tu práctica espiritual diaria.",
+        "cta": "Ver planes Premium",
+        "ctaNote": "Desde 1,99€/mes · Cancela cuando quieras",
+        "features": {
+            "offline": {
+                "title": "Modo Sin Conexión Completo",
+                "description": "Reza en cualquier lugar — incluso sin señal. Hadiths, Corán y horarios de oración disponibles sin conexión, imprescindible en la mezquita o de viaje."
+            },
+            "backup": {
+                "title": "Copia de Seguridad en la Nube",
+                "description": "Cambia de teléfono sin perder nada. Tus favoritos, ajustes y progreso en el Corán se guardan y restauran automáticamente."
+            },
+            "stats": {
+                "title": "Estadísticas de Oración",
+                "description": "Visualiza tu progreso cada día, semana y mes. Identifica oraciones perdidas y construye una disciplina espiritual duradera."
+            },
+            "content": {
+                "title": "Contenido y Favoritos Ilimitados",
+                "description": "Desbloquea historias de profetas exclusivas y guarda todos los versículos, hadiths y súplicas que quieras — sin límites."
+            },
+            "widget": {
+                "title": "Widget de Lectura del Corán",
+                "description": "Lee y escucha el Corán directamente desde tu pantalla de inicio, sin abrir la app. Perfecto para tener el Corán a mano durante todo el día."
+            },
+            "audio": {
+                "title": "25+ Recitadores HD",
+                "description": "Escucha el Corán completo con más de 25 recitadores de renombre mundial en calidad de audio HD. Encuentra la voz que toca tu corazón."
+            }
+        }
+    },
+    "premium": {
+        "title": "Actualiza a",
+        "titleHighlight": "Premium",
+        "subtitle": "Desbloquea todas las funciones y apoya el desarrollo de la aplicación",
+        "popular": "Más Popular",
+        "infoBanner": "Para suscribirse a Premium, descarga la aplicación MyAdhan",
+        "save": "Ahorra 17%",
+        "comingSoon": "Próximamente",
+        "downloadApp": "Descargar App",
+        "monthly": {
+            "title": "Mensual",
+            "price": "1,99€",
+            "period": "/mes",
+            "features": [
+                "Recitaciones HD",
+                "Análisis de Oración",
+                "Temas Premium",
+                "Sin Anuncios",
+                "Soporte Prioritario"
+            ]
+        },
+        "yearly": {
+            "title": "Anual",
+            "price": "19,99€",
+            "period": "/año",
+            "features": [
+                "Todas las funciones mensuales",
+                "2 meses gratis",
+                "Estadísticas mensuales",
+                "Contenido exclusivo",
+                "Actualizaciones prioritarias"
+            ]
+        },
+        "family": {
+            "title": "Familiar",
+            "price": "29,99€",
+            "period": "/año",
+            "features": [
+                "Todas las funciones anuales",
+                "Hasta 6 miembros",
+                "Perfiles infantiles",
+                "Gestión familiar",
+                "Soporte dedicado"
+            ]
+        }
+    },
+    "download": {
+        "title": "Disponible en",
+        "titleHighlight": "iOS y Android",
+        "subtitle": "Descarga MyAdhan gratis en tu dispositivo favorito y comienza tu viaje espiritual hoy.",
+        "googlePlay": "Descargar en Google Play",
+        "appStore": "Descargar en App Store",
+        "stats": {
+            "languages": "Idiomas Soportados",
+            "notifications": "Notificaciones por Día",
+            "free": "Gratis",
+            "freeNumber": "Gratis",
+            "freeVersion": "Versión Básica",
+            "available": "24/7",
+            "availability": "Disponible"
+        }
+    },
+    "footer": {
+        "description": "Tu compañero inteligente de oración. Horarios precisos, Adhan, Corán, Qibla y mucho más. Disponible en 13 idiomas.",
+        "download": "Descargar",
+        "legal": "Información Legal",
+        "support": "Soporte",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "copyright": "© {{year}} MyAdhan. Todos los derechos reservados.",
+        "madeWith": "Desarrollado con",
+        "forCommunity": "para la comunidad musulmana"
+    },
+    "why": {
+        "title": "Por qué los musulmanes eligen",
+        "titleHighlight": "MyAdhan",
+        "subtitle": "Miles de musulmanes en todo el mundo confían en MyAdhan para su práctica diaria.",
+        "reasons": [
+            "Horarios de oración calculados precisamente según tu ubicación",
+            "Notificaciones de Adhan que funcionan incluso sin conexión",
+            "Completamente sin anuncios — siempre una experiencia limpia",
+            "Corán, Hadiths, Qibla y Dhikr en una sola app",
+            "Disponible en 13 idiomas para la comunidad musulmana global",
+            "Historias de los Profetas, 99 Nombres de Alá y mucho más"
+        ]
+    },
+    "finalCta": {
+        "title": "Empieza tu rutina de oración con MyAdhan.",
+        "subtitle": "Descarga la app gratis en iOS y Android.",
+        "note": "Gratis · Sin anuncios · 13 idiomas",
+        "availableOn": "Disponible en",
+        "getItOn": "Disponible en",
+        "appStore": "App Store",
+        "googlePlay": "Google Play"
+    },
+    "common": {
+        "appStore": "App Store",
+        "googlePlay": "Google Play",
+        "premiumBadge": "Premium",
+        "changeLanguage": "Cambiar idioma",
+        "close": "Cerrar"
+    }
 }

@@ -1,51 +1,51 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { CheckCircle, Smartphone, ArrowRight } from "lucide-react";
 import "./Premium.css";
 
+const PLANS = [
+  {
+    titleKey: "premium.monthly.title",
+    priceKey: "premium.monthly.price",
+    periodKey: "premium.monthly.period",
+    popular: false,
+    available: true,
+    planType: "monthly",
+  },
+  {
+    titleKey: "premium.yearly.title",
+    priceKey: "premium.yearly.price",
+    periodKey: "premium.yearly.period",
+    popular: true,
+    available: true,
+    badgeKey: "premium.save",
+    planType: "yearly",
+  },
+  {
+    titleKey: "premium.family.title",
+    priceKey: "premium.family.price",
+    periodKey: "premium.family.period",
+    popular: false,
+    available: false,
+    planType: "family",
+  },
+];
+
+function scrollToDownload() {
+  const downloadSection = document.getElementById("download");
+  if (downloadSection) {
+    downloadSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 const Premium = () => {
   const { t } = useTranslation();
-  const plans = [
-    {
-      titleKey: "premium.monthly.title",
-      price: "1.99€",
-      period: "/mois",
-      popular: false,
-      available: true,
-      planType: "monthly",
-    },
-    {
-      titleKey: "premium.yearly.title",
-      price: "19.99€",
-      period: "/an",
-      popular: true,
-      available: true,
-      badgeKey: "premium.save",
-      planType: "yearly",
-    },
-    {
-      titleKey: "premium.family.title",
-      price: "29.99€",
-      period: "/an",
-      popular: false,
-      available: false,
-      planType: "family",
-    },
-  ];
-
-  const scrollToDownload = () => {
-    const downloadSection = document.getElementById("download");
-    if (downloadSection) {
-      downloadSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <section id="premium" className="premium">
       <div className="premium-container">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -62,12 +62,12 @@ const Premium = () => {
             <Smartphone className="banner-icon" />
             <p>{t("premium.infoBanner")}</p>
           </div>
-        </motion.div>
+        </m.div>
 
         <div className="premium-grid">
-          {plans.map((plan, index) => (
-            <motion.div
-              key={index}
+          {PLANS.map((plan, index) => (
+            <m.div
+              key={plan.planType}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -96,16 +96,16 @@ const Premium = () => {
               <div className="premium-card-header">
                 <h3 className="premium-card-title">{t(plan.titleKey)}</h3>
                 <div className="premium-price">
-                  <span className="price-amount">{plan.price}</span>
-                  <span className="price-period">{plan.period}</span>
+                  <span className="price-amount">{t(plan.priceKey)}</span>
+                  <span className="price-period">{t(plan.periodKey)}</span>
                 </div>
               </div>
 
               <ul className="premium-features">
                 {t(`premium.${plan.planType}.features`, {
                   returnObjects: true,
-                }).map((feature, featureIndex) => (
-                  <li key={featureIndex} className="premium-feature">
+                }).map((feature) => (
+                  <li key={feature} className="premium-feature">
                     <CheckCircle className="feature-check" />
                     <span>{feature}</span>
                   </li>
@@ -114,6 +114,7 @@ const Premium = () => {
 
               {plan.available ? (
                 <button
+                  type="button"
                   className={`premium-btn ${
                     plan.popular ? "primary" : "secondary"
                   }`}
@@ -124,11 +125,11 @@ const Premium = () => {
                   <ArrowRight className="btn-arrow" />
                 </button>
               ) : (
-                <button className="premium-btn disabled" disabled>
+                <button type="button" className="premium-btn disabled" disabled>
                   <span>{t("premium.comingSoon")}</span>
                 </button>
               )}
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

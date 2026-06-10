@@ -1,0 +1,150 @@
+.fcta-section {
+  position: relative;
+  padding: 120px 24px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fcta-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(16, 185, 129, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 20% 80%, rgba(59, 130, 246, 0.07) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.fcta-container {
+  max-width: 680px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.fcta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.fcta-icon {
+  font-size: 56px;
+  line-height: 1;
+  filter: drop-shadow(0 0 20px rgba(16, 185, 129, 0.4));
+}
+
+.fcta-title {
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 900;
+  color: white;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.fcta-subtitle {
+  font-size: clamp(16px, 2.5vw, 20px);
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: 300;
+  line-height: 1.6;
+  max-width: 480px;
+  margin: 0;
+}
+
+/* Buttons */
+.fcta-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.fcta-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 32px;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.fcta-btn-ios {
+  background: white;
+  color: #0f172a;
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
+}
+
+.fcta-btn-ios:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(255, 255, 255, 0.25);
+}
+
+.fcta-btn-android {
+  background: #10b981;
+  color: white;
+  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.35);
+}
+
+.fcta-btn-android:hover {
+  transform: translateY(-4px);
+  background: #059669;
+  box-shadow: 0 16px 48px rgba(16, 185, 129, 0.5);
+}
+
+.fcta-btn-icon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.fcta-btn-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.fcta-btn-sub {
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.fcta-btn-ios .fcta-btn-sub { color: #475569; }
+.fcta-btn-android .fcta-btn-sub { color: rgba(255,255,255,0.8); }
+
+.fcta-btn-name {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.fcta-note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.35);
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .fcta-section {
+    padding: 80px 16px;
+  }
+
+  .fcta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fcta-btn {
+    width: 100%;
+    justify-content: center;
+    min-width: unset;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import {
   Crown,
@@ -14,27 +14,26 @@ import {
 import "./PremiumFeatures.css";
 
 const FEATURES = [
-  { icon: Headphones,   key: "audio",   color: "#f59e0b" },
-  { icon: BookOpenText, key: "widget",  color: "#3b82f6" },
-  { icon: WifiOff,      key: "offline", color: "#10b981" },
-  { icon: CloudUpload,  key: "backup",  color: "#8b5cf6" },
-  { icon: BarChart3,    key: "stats",   color: "#f43f5e" },
-  { icon: Heart,        key: "content", color: "#ec4899" },
+  { icon: Headphones, key: "audio", color: "#f59e0b" },
+  { icon: BookOpenText, key: "widget", color: "#3b82f6" },
+  { icon: WifiOff, key: "offline", color: "#10b981" },
+  { icon: CloudUpload, key: "backup", color: "#8b5cf6" },
+  { icon: BarChart3, key: "stats", color: "#f43f5e" },
+  { icon: Heart, key: "content", color: "#ec4899" },
 ];
+
+function scrollToPricing() {
+  const section = document.getElementById("premium");
+  if (section) section.scrollIntoView({ behavior: "smooth" });
+}
 
 const PremiumFeatures = () => {
   const { t } = useTranslation();
 
-  const scrollToPricing = () => {
-    const section = document.getElementById("premium");
-    if (section) section.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section id="premium-features" className="pf-section">
       <div className="pf-container">
-        {/* Header */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -42,7 +41,7 @@ const PremiumFeatures = () => {
         >
           <div className="pf-badge">
             <Crown className="pf-badge-icon" />
-            <span>Premium</span>
+            <span>{t("common.premiumBadge")}</span>
           </div>
           <h2 className="pf-title">
             {t("premiumFeatures.title")}{" "}
@@ -51,14 +50,13 @@ const PremiumFeatures = () => {
             </span>
           </h2>
           <p className="pf-subtitle">{t("premiumFeatures.subtitle")}</p>
-        </motion.div>
+        </m.div>
 
-        {/* Features Grid */}
         <div className="pf-grid">
           {FEATURES.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <motion.div
+              <m.div
                 key={feature.key}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -79,25 +77,24 @@ const PremiumFeatures = () => {
                     {t(`premiumFeatures.features.${feature.key}.description`)}
                   </p>
                 </div>
-              </motion.div>
+              </m.div>
             );
           })}
         </div>
 
-        {/* CTA */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="pf-cta"
         >
-          <button className="pf-cta-btn" onClick={scrollToPricing}>
+          <button type="button" className="pf-cta-btn" onClick={scrollToPricing}>
             <Crown className="pf-cta-icon" />
             <span>{t("premiumFeatures.cta")}</span>
             <ArrowRight className="pf-cta-arrow" />
           </button>
           <p className="pf-cta-note">{t("premiumFeatures.ctaNote")}</p>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

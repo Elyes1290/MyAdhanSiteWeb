@@ -1,231 +1,276 @@
 {
-    "nav":  {
-                "home":  "Startseite",
-                "features":  "Funktionen",
-                "screenshots":  "Screenshots",
-                "premium":  "Premium",
-                "download":  "Herunterladen"
-            },
-    "hero":  {
-                 "badge":  "✨ Jetzt auf iOS \u0026 Android verfügbar",
-                 "title":  "Dein Intelligenter",
-                 "titleHighlight":  "Gebetsbegleiter",
-                 "subtitle":  "Verpasse kein Gebet mit präzisen Gebetszeiten, schönen Adhan-Benachrichtigungen, Koran, Hadith, Qibla-Richtung und mehr. Verfügbar in 13 Sprachen.",
-                 "downloadBtn":  "Jetzt Herunterladen",
-                 "learnMoreBtn":  "Mehr Erfahren",
-                 "stats":  {
-                               "users":  "Aktive Benutzer",
-                               "languages":  "Sprachen",
-                               "rating":  "Bewertung",
-                               "downloads":  "Downloads",
-                               "prayers":  "5 Gebete",
-                               "free":  "100% Kostenlos"
-                           }
-             },
-    "features":  {
-                     "title":  "Alles Was Du Brauchst für",
-                     "titleHighlight":  "Deine Spirituelle Praxis",
-                     "subtitle":  "Eine vollständige Anwendung zur Begleitung deiner täglichen islamischen Praxis",
-                     "feature1":  {
-                                      "title":  "Präzise Gebetszeiten",
-                                      "description":  "Automatische Berechnungen basierend auf deinem Standort mit mehreren Berechnungsmethoden"
-                                  },
-                     "feature2":  {
-                                      "title":  "Qibla-Richtung",
-                                      "description":  "Integrierter Kompass für präzise Qibla-Richtung überall auf der Welt"
-                                  },
-                     "feature3":  {
-                                      "title":  "Koran und Hadith",
-                                      "description":  "Vollständiger Koran mit Rezitationen, Übersetzungen und authentischen Hadith-Sammlungen"
-                                  },
-                     "feature4":  {
-                                      "title":  "Intelligente Benachrichtigungen",
-                                      "description":  "Anpassbarer Adhan für jedes Gebet mit Android-Widget"
-                                  },
-                     "feature5":  {
-                                      "title":  "13 Sprachen",
-                                      "description":  "Vollständige mehrsprachige Unterstützung für eine globale Erfahrung"
-                                  },
-                     "feature6":  {
-                                      "title":  "Offline-Modus",
-                                      "description":  "Zugriff auf deine Gebetszeiten und gespeicherte Inhalte ohne Internet"
-                                  }
-                 },
-    "screenshots":  {
-                        "title":  "Entdecken",
-                        "titleHighlight":  "MyAdhan in Aktion",
-                        "subtitle":  "Erkunde alle App-Funktionen durch diese Screenshots",
-                        "categories":  {
-                                           "core":  "Kernfunktionen",
-                                           "islamic":  "Islamischer Inhalt",
-                                           "premium":  "Premium"
-                                       },
-                        "core":  {
-                                     "homescreen":  "Startbildschirm",
-                                     "prayerTimes":  "Gebetszeiten",
-                                     "weeklyCalendar":  "Wochenkalender",
-                                     "howToPray":  "Wie man betet",
-                                     "prayerWidget":  "Gebetszeiten-Widget",
-                                     "qibla":  "Qibla-Kompass",
-                                     "calendar":  "Islamischer Kalender",
-                                     "library":  "Bibliothek",
-                                     "more":  "Mehr",
-                                     "darkTheme":  "Dunkles Thema",
-                                     "dhohrTheme":  "Dhohr-Thema",
-                                     "settings":  "Einstellungen"
-                                 },
-                        "islamic":  {
-                                        "quran":  "Koran",
-                                        "quranReader":  "Koran-Leser",
-                                        "hadith":  "Hadithe",
-                                        "hadithBooks":  "Hadith-Bücher",
-                                        "prophetStories":  "Prophetengeschichten",
-                                        "dhikr":  "Dhikr \u0026 Dua\u0027a",
-                                        "names99":  "99 Namen Allahs",
-                                        "tasbih":  "Tasbih"
-                                    },
-                        "premiumFeatures":  {
-                                                "title":  "Das",
-                                                "titleHighlight":  "Premium-Erlebnis",
-                                                "subtitle":  "Schalten Sie exklusive Funktionen frei, die Ihre tägliche spirituelle Praxis bereichern.",
-                                                "cta":  "Premium-Pläne ansehen",
-                                                "ctaNote":  "Ab 1,99€/Monat · Jederzeit kündbar",
-                                                "features":  {
-                                                                 "themes":  {
-                                                                                "title":  "Exklusive Themen",
-                                                                                "description":  "Passen Sie das App-Design mit einzigartigen visuellen Themen für Gebetsmomente an: Fajr und Maghrib."
-                                                                            },
-                                                                 "stats":  {
-                                                                               "title":  "Gebetsstatistiken",
-                                                                               "description":  "Verfolgen Sie Ihre Gebetsgewohnheiten mit detaillierten Diagrammen und monatlichen Analysen."
-                                                                           },
-                                                                 "qibla":  {
-                                                                               "title":  "Premium Qibla-Kompass",
-                                                                               "description":  "Eine vollständig angepasste Kompassoberfläche mit hoher Präzision und elegantem Design."
-                                                                           },
-                                                                 "audio":  {
-                                                                               "title":  "HD-Rezitationen",
-                                                                               "description":  "Greifen Sie auf Koran-Rezitationen in hoher Audioqualität für ein unvergleichliches spirituelles Hörerlebnis zu."
-                                                                           },
-                                                                 "widget":  {
-                                                                                "title":  "Koran-Lese-Widget",
-                                                                                "description":  "Lesen und hören Sie den Koran direkt vom Startbildschirm mit dem exklusiven Premium-Widget."
-                                                                            }
-                                                             }
-                                            },
-                        "premium":  {
-                                        "stats":  "Gebetsstatistiken",
-                                        "qiblaCustom":  "Benutzerdefinierter Kompass",
-                                        "sobhTheme":  "Fajr-Thema (Premium)",
-                                        "maghribTheme":  "Maghrib-Thema (Premium)",
-                                        "quranWidget":  "Koran Audio Widget",
-                                        "quranModal":  "Koran-Leser-Einstellungen"
-                                    }
-                    },
-    "premiumFeatures":  {
-                            "title":  "Das",
-                            "titleHighlight":  "Premium-Erlebnis",
-                            "subtitle":  "Schalten Sie exklusive Funktionen frei, die Ihre tägliche spirituelle Praxis bereichern.",
-                            "cta":  "Premium-Pläne ansehen",
-                            "ctaNote":  "Ab 1,99€/Monat · Jederzeit kündbar",
-                            "features":  {
-                                             "offline":  {
-                                                             "title":  "Vollständiger Offline-Modus",
-                                                             "description":  "Bete überall — auch ohne Netz. Hadithe, Koran und Gebetszeiten offline verfügbar, unverzichtbar in der Moschee oder auf Reisen."
-                                                         },
-                                             "backup":  {
-                                                            "title":  "Cloud-Sicherung",
-                                                            "description":  "Wechsle dein Telefon ohne Datenverlust. Favoriten, Einstellungen und Koran-Fortschritt werden automatisch gesichert und wiederhergestellt."
-                                                        },
-                                             "stats":  {
-                                                           "title":  "Gebetsstatistiken",
-                                                           "description":  "Verfolge deinen Fortschritt täglich, wöchentlich und monatlich. Erkenne verpasste Gebete und baue eine nachhaltige spirituelle Disziplin auf."
-                                                       },
-                                             "content":  {
-                                                             "title":  "Unbegrenzte Inhalte \u0026 Favoriten",
-                                                             "description":  "Schalte exklusive Prophetengeschichten frei und speichere so viele Verse, Hadithe und Bittgebete wie du möchtest — ohne Limit."
-                                                         },
-                                             "widget":  {
-                                                            "title":  "Koran-Lese-Widget",
-                                                            "description":  "Lese und höre den Koran direkt vom Startbildschirm, ohne die App zu öffnen. Ideal, um den Koran den ganzen Tag griffbereit zu haben."
-                                                        },
-                                             "audio":  {
-                                                           "title":  "25+ HD-Rezitatoren",
-                                                           "description":  "Höre den gesamten Koran mit über 25 weltbekannten Rezitatoren in HD-Audioqualität. Finde die Stimme, die dein Herz berührt."
-                                                       }
-                                         }
-                        },
-    "premium":  {
-                    "title":  "Upgrade auf",
-                    "titleHighlight":  "Premium",
-                    "subtitle":  "Schalte alle Funktionen frei und unterstütze die Entwicklung der Anwendung",
-                    "popular":  "Am Beliebtesten",
-                    "infoBanner":  "Um Premium zu abonnieren, lade die MyAdhan App herunter",
-                    "save":  "17% Sparen",
-                    "comingSoon":  "Demnächst",
-                    "downloadApp":  "App Herunterladen",
-                    "monthly":  {
-                                    "title":  "Monatlich",
-                                    "price":  "1,99€",
-                                    "period":  "/Monat",
-                                    "features":  [
-                                                     "HD-Rezitationen",
-                                                     "Gebets-Analysen",
-                                                     "Premium-Themen",
-                                                     "Keine Werbung",
-                                                     "Vorrangiger Support"
-                                                 ]
-                                },
-                    "yearly":  {
-                                   "title":  "Jährlich",
-                                   "price":  "19,99€",
-                                   "period":  "/Jahr",
-                                   "features":  [
-                                                    "Alle monatlichen Funktionen",
-                                                    "2 Monate gratis",
-                                                    "Monatliche Statistiken",
-                                                    "Exklusiver Inhalt",
-                                                    "Prioritäts-Updates"
-                                                ]
-                               },
-                    "family":  {
-                                   "title":  "Familie",
-                                   "price":  "29,99€",
-                                   "period":  "/Jahr",
-                                   "features":  [
-                                                    "Alle jährlichen Funktionen",
-                                                    "Bis zu 6 Mitglieder",
-                                                    "Kinderprofile",
-                                                    "Familienverwaltung",
-                                                    "Dedizierter Support"
-                                                ]
-                               }
+    "nav": {
+        "home": "Startseite",
+        "features": "Funktionen",
+        "screenshots": "Screenshots",
+        "premium": "Premium",
+        "download": "Herunterladen",
+        "menu": "Menü"
+    },
+    "hero": {
+        "badge": "✨ Jetzt auf iOS & Android verfügbar",
+        "title": "Verpasse nie wieder",
+        "titleHighlight": "ein einziges Gebet.",
+        "subtitle": "Präzise Gebetszeiten, Adhan-Benachrichtigungen, Qibla, Koran, Hadithe und islamische Tools — alles in einer eleganten App.",
+        "downloadBtn": "Jetzt Herunterladen",
+        "learnMoreBtn": "Mehr Erfahren",
+        "stats": {
+            "users": "Aktive Benutzer",
+            "languages": "Sprachen",
+            "rating": "Bewertung",
+            "downloads": "Downloads",
+            "prayers": "5 Gebete",
+            "free": "100% Kostenlos"
+        },
+        "stores": {
+            "availableOn": "Verfügbar im",
+            "getItOn": "Jetzt bei",
+            "appStore": "App Store",
+            "googlePlay": "Google Play"
+        },
+        "pills": [
+            "Genaue Gebetszeiten",
+            "Adhan-Benachrichtigungen",
+            "Koran, Qibla & Dhikr"
+        ],
+        "tagline": "Die schönste und genaueste muslimische App.",
+        "watchVideo": "Präsentationsvideo ansehen"
+    },
+    "features": {
+        "title": "Alles Was Du Brauchst für",
+        "titleHighlight": "Deine Spirituelle Praxis",
+        "subtitle": "Eine vollständige Anwendung zur Begleitung deiner täglichen islamischen Praxis",
+        "feature1": {
+            "title": "Präzise Gebetszeiten",
+            "description": "Automatische Berechnungen basierend auf deinem Standort mit mehreren Berechnungsmethoden"
+        },
+        "feature2": {
+            "title": "Qibla-Richtung",
+            "description": "Integrierter Kompass für präzise Qibla-Richtung überall auf der Welt"
+        },
+        "feature3": {
+            "title": "Koran und Hadith",
+            "description": "Vollständiger Koran mit Rezitationen, Übersetzungen und authentischen Hadith-Sammlungen"
+        },
+        "feature4": {
+            "title": "Intelligente Benachrichtigungen",
+            "description": "Anpassbarer Adhan für jedes Gebet mit Android-Widget"
+        },
+        "feature5": {
+            "title": "13 Sprachen",
+            "description": "Vollständige mehrsprachige Unterstützung für eine globale Erfahrung"
+        },
+        "feature6": {
+            "title": "Offline-Modus",
+            "description": "Zugriff auf deine Gebetszeiten und gespeicherte Inhalte ohne Internet"
+        }
+    },
+    "screenshots": {
+        "title": "Entdecken",
+        "titleHighlight": "MyAdhan in Aktion",
+        "subtitle": "Erkunde alle App-Funktionen durch diese Screenshots",
+        "categories": {
+            "core": "Kernfunktionen",
+            "islamic": "Islamischer Inhalt",
+            "premium": "Premium"
+        },
+        "core": {
+            "homescreen": "Startbildschirm",
+            "prayerTimes": "Gebetszeiten",
+            "weeklyCalendar": "Wochenkalender",
+            "howToPray": "Wie man betet",
+            "prayerWidget": "Gebetszeiten-Widget",
+            "qibla": "Qibla-Kompass",
+            "calendar": "Islamischer Kalender",
+            "library": "Bibliothek",
+            "more": "Mehr",
+            "darkTheme": "Dunkles Thema",
+            "dhohrTheme": "Dhohr-Thema",
+            "settings": "Einstellungen"
+        },
+        "islamic": {
+            "quran": "Koran",
+            "quranReader": "Koran-Leser",
+            "hadith": "Hadithe",
+            "hadithBooks": "Hadith-Bücher",
+            "prophetStories": "Prophetengeschichten",
+            "dhikr": "Dhikr & Dua'a",
+            "names99": "99 Namen Allahs",
+            "tasbih": "Tasbih"
+        },
+        "premiumFeatures": {
+            "title": "Das",
+            "titleHighlight": "Premium-Erlebnis",
+            "subtitle": "Schalten Sie exklusive Funktionen frei, die Ihre tägliche spirituelle Praxis bereichern.",
+            "cta": "Premium-Pläne ansehen",
+            "ctaNote": "Ab 1,99€/Monat · Jederzeit kündbar",
+            "features": {
+                "themes": {
+                    "title": "Exklusive Themen",
+                    "description": "Passen Sie das App-Design mit einzigartigen visuellen Themen für Gebetsmomente an: Fajr und Maghrib."
                 },
-    "download":  {
-                     "title":  "Verfügbar auf",
-                     "titleHighlight":  "iOS und Android",
-                     "subtitle":  "Lade MyAdhan kostenlos auf dein Lieblingsgerät herunter und beginne heute deine spirituelle Reise.",
-                     "googlePlay":  "Auf Google Play Herunterladen",
-                     "appStore":  "Im App Store Herunterladen",
-                     "stats":  {
-                                   "languages":  "Unterstützte Sprachen",
-                                   "notifications":  "Benachrichtigungen pro Tag",
-                                   "free":  "Kostenlos",
-                                   "freeNumber":  "Kostenlos",
-                                   "freeVersion":  "Basisversion",
-                                   "available":  "24/7",
-                                   "availability":  "Verfügbar"
-                               }
-                 },
-    "footer":  {
-                   "description":  "Dein intelligenter Gebetsbegleiter. Präzise Zeiten, Adhan, Koran, Qibla und mehr. Verfügbar in 13 Sprachen.",
-                   "download":  "Herunterladen",
-                   "legal":  "Rechtliche Informationen",
-                   "support":  "Support",
-                   "privacy":  "Datenschutzrichtlinie",
-                   "terms":  "Nutzungsbedingungen",
-                   "copyright":  "MyAdhan. Alle Rechte vorbehalten.",
-                   "madeWith":  "Entwickelt mit",
-                   "forCommunity":  "für die muslimische Gemeinschaft"
-               }
+                "stats": {
+                    "title": "Gebetsstatistiken",
+                    "description": "Verfolgen Sie Ihre Gebetsgewohnheiten mit detaillierten Diagrammen und monatlichen Analysen."
+                },
+                "qibla": {
+                    "title": "Premium Qibla-Kompass",
+                    "description": "Eine vollständig angepasste Kompassoberfläche mit hoher Präzision und elegantem Design."
+                },
+                "audio": {
+                    "title": "HD-Rezitationen",
+                    "description": "Greifen Sie auf Koran-Rezitationen in hoher Audioqualität für ein unvergleichliches spirituelles Hörerlebnis zu."
+                },
+                "widget": {
+                    "title": "Koran-Lese-Widget",
+                    "description": "Lesen und hören Sie den Koran direkt vom Startbildschirm mit dem exklusiven Premium-Widget."
+                }
+            }
+        },
+        "premium": {
+            "stats": "Gebetsstatistiken",
+            "qiblaCustom": "Benutzerdefinierter Kompass",
+            "sobhTheme": "Fajr-Thema (Premium)",
+            "maghribTheme": "Maghrib-Thema (Premium)",
+            "quranWidget": "Koran Audio Widget",
+            "quranModal": "Koran-Leser-Einstellungen"
+        },
+        "showMore": "{{count}} weitere Screenshots anzeigen",
+        "showLess": "Weniger anzeigen"
+    },
+    "premiumFeatures": {
+        "title": "Das",
+        "titleHighlight": "Premium-Erlebnis",
+        "subtitle": "Schalten Sie exklusive Funktionen frei, die Ihre tägliche spirituelle Praxis bereichern.",
+        "cta": "Premium-Pläne ansehen",
+        "ctaNote": "Ab 1,99€/Monat · Jederzeit kündbar",
+        "features": {
+            "offline": {
+                "title": "Vollständiger Offline-Modus",
+                "description": "Bete überall — auch ohne Netz. Hadithe, Koran und Gebetszeiten offline verfügbar, unverzichtbar in der Moschee oder auf Reisen."
+            },
+            "backup": {
+                "title": "Cloud-Sicherung",
+                "description": "Wechsle dein Telefon ohne Datenverlust. Favoriten, Einstellungen und Koran-Fortschritt werden automatisch gesichert und wiederhergestellt."
+            },
+            "stats": {
+                "title": "Gebetsstatistiken",
+                "description": "Verfolge deinen Fortschritt täglich, wöchentlich und monatlich. Erkenne verpasste Gebete und baue eine nachhaltige spirituelle Disziplin auf."
+            },
+            "content": {
+                "title": "Unbegrenzte Inhalte & Favoriten",
+                "description": "Schalte exklusive Prophetengeschichten frei und speichere so viele Verse, Hadithe und Bittgebete wie du möchtest — ohne Limit."
+            },
+            "widget": {
+                "title": "Koran-Lese-Widget",
+                "description": "Lese und höre den Koran direkt vom Startbildschirm, ohne die App zu öffnen. Ideal, um den Koran den ganzen Tag griffbereit zu haben."
+            },
+            "audio": {
+                "title": "25+ HD-Rezitatoren",
+                "description": "Höre den gesamten Koran mit über 25 weltbekannten Rezitatoren in HD-Audioqualität. Finde die Stimme, die dein Herz berührt."
+            }
+        }
+    },
+    "premium": {
+        "title": "Upgrade auf",
+        "titleHighlight": "Premium",
+        "subtitle": "Schalte alle Funktionen frei und unterstütze die Entwicklung der Anwendung",
+        "popular": "Am Beliebtesten",
+        "infoBanner": "Um Premium zu abonnieren, lade die MyAdhan App herunter",
+        "save": "17% Sparen",
+        "comingSoon": "Demnächst",
+        "downloadApp": "App Herunterladen",
+        "monthly": {
+            "title": "Monatlich",
+            "price": "1,99€",
+            "period": "/Monat",
+            "features": [
+                "HD-Rezitationen",
+                "Gebets-Analysen",
+                "Premium-Themen",
+                "Keine Werbung",
+                "Vorrangiger Support"
+            ]
+        },
+        "yearly": {
+            "title": "Jährlich",
+            "price": "19,99€",
+            "period": "/Jahr",
+            "features": [
+                "Alle monatlichen Funktionen",
+                "2 Monate gratis",
+                "Monatliche Statistiken",
+                "Exklusiver Inhalt",
+                "Prioritäts-Updates"
+            ]
+        },
+        "family": {
+            "title": "Familie",
+            "price": "29,99€",
+            "period": "/Jahr",
+            "features": [
+                "Alle jährlichen Funktionen",
+                "Bis zu 6 Mitglieder",
+                "Kinderprofile",
+                "Familienverwaltung",
+                "Dedizierter Support"
+            ]
+        }
+    },
+    "download": {
+        "title": "Verfügbar auf",
+        "titleHighlight": "iOS und Android",
+        "subtitle": "Lade MyAdhan kostenlos auf dein Lieblingsgerät herunter und beginne heute deine spirituelle Reise.",
+        "googlePlay": "Auf Google Play Herunterladen",
+        "appStore": "Im App Store Herunterladen",
+        "stats": {
+            "languages": "Unterstützte Sprachen",
+            "notifications": "Benachrichtigungen pro Tag",
+            "free": "Kostenlos",
+            "freeNumber": "Kostenlos",
+            "freeVersion": "Basisversion",
+            "available": "24/7",
+            "availability": "Verfügbar"
+        }
+    },
+    "footer": {
+        "description": "Dein intelligenter Gebetsbegleiter. Präzise Zeiten, Adhan, Koran, Qibla und mehr. Verfügbar in 13 Sprachen.",
+        "download": "Herunterladen",
+        "legal": "Rechtliche Informationen",
+        "support": "Support",
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen",
+        "copyright": "© {{year}} MyAdhan. Alle Rechte vorbehalten.",
+        "madeWith": "Entwickelt mit",
+        "forCommunity": "für die muslimische Gemeinschaft"
+    },
+    "why": {
+        "title": "Warum Muslime",
+        "titleHighlight": "MyAdhan wählen",
+        "subtitle": "Tausende Muslime weltweit vertrauen MyAdhan für ihre tägliche Praxis.",
+        "reasons": [
+            "Präzise Gebetszeiten basierend auf Ihrem Standort",
+            "Adhan-Benachrichtigungen, die auch offline funktionieren",
+            "Komplett werbefrei — immer eine saubere Erfahrung",
+            "Koran, Hadithe, Qibla und Dhikr in einer App",
+            "In 13 Sprachen für die globale muslimische Gemeinschaft",
+            "Prophetengeschichten, 99 Namen Allahs und vieles mehr"
+        ]
+    },
+    "finalCta": {
+        "title": "Starte deine Gebetsroutine mit MyAdhan.",
+        "subtitle": "Lade die App kostenlos auf iOS und Android herunter.",
+        "note": "Kostenlos · Keine Werbung · 13 Sprachen",
+        "availableOn": "Erhältlich im",
+        "getItOn": "Jetzt bei",
+        "appStore": "App Store",
+        "googlePlay": "Google Play"
+    },
+    "common": {
+        "appStore": "App Store",
+        "googlePlay": "Google Play",
+        "premiumBadge": "Premium",
+        "changeLanguage": "Sprache ändern",
+        "close": "Schließen"
+    }
 }
